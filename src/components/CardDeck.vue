@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div>
     <h2>{{ subject }}</h2>
     <div>
       <div class="carte" v-for="item in cards" :key="item.id">
@@ -37,4 +37,5 @@ ul {
 .carte {
   margin-bottom: 30px;
 }
+
 </style>

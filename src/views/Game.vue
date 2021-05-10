@@ -2,7 +2,6 @@
   <div class="game">
     <h1>Game:</h1>
     <CardDeck subject="graphisme"/>
-
   </div>
 </template>
 
@@ -16,3 +15,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  h1 {
+    background: red;
+  }
+</style>

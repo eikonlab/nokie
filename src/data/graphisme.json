@@ -20,11 +20,11 @@
     "text": "Vous avez choisi le bouton 1",
     "options": [
       {
-        "text": "Choix1",
+        "text": "Choix 1",
         "nextId": 4
       },
       {
-        "text": "Choix2",
+        "text": "Choix 2",
         "nextId": 5
       }
     ]
@@ -35,11 +35,11 @@
     "text": "Vous avez choisi le bouton 2",
     "options": [
       {
-        "text": "Choix1",
+        "text": "Choix 1",
         "nextId": 4
       },
       {
-        "text": "Choix2",
+        "text": "Choix 2",
         "nextId": 5
       }
     ]
