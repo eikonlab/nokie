@@ -6,7 +6,7 @@
     </div>
     <router-view/>
   </div>
-</template>./components/CardDeck.vue
+</template>
 
 <style>
 #app {

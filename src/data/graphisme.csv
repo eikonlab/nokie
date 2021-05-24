@@ -1,0 +1,4 @@
+id,image,text,option_01_text,option_01_next_text,option_02_text,option_02_next_text
+1,./path/to/image.jpg,Le texte de la premiere étape ici,Choix 1,2,Choix 2,3
+2,./path/to/image.jpg,Vous avez choisi l'option 1,Choix 1,1,Choix 2,1
+3,./path/to/image.jpg,Vous avez choisi l'option 2,Choix 1,1,Choix 2,1

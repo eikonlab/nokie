@@ -18,13 +18,15 @@ export default {
   name: 'CardDeck',
   data: function () {
     return {
-      cards: require(`../data/${this.subject}.json`)
+      cards: require(`../data/${this.subject}.json`),
+      cards_csv: require(`../data/${this.subject}.csv`),
     }
   },
   props: {
     subject: String
   }
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -39,6 +41,7 @@ ul {
 }
 .carte {
   margin-bottom: 30px;
+  border: 1px solid black;
 }
 
 .left {
