@@ -2,13 +2,16 @@
   <div>
     <h2>{{ subject }}</h2>
     <div>
-      <div class="carte" v-for="item in cards" :key="item.id">
-        Carte: {{ item.id }}<br />
-        {{ item.text }}
+      <div class="carte" v-for="card in cards" :key="card.id">
+        Carte: {{ card.id }}<br />
+        {{ card.text }}
+        <img :src="`${card.image}`"  alt="">
+
       </div>
     </div>
   </div>
 </template>
+
 
 <script>
 export default {
@@ -36,6 +39,10 @@ ul {
 }
 .carte {
   margin-bottom: 30px;
+}
+
+.left {
+  text-align: left;
 }
 
 </style>
