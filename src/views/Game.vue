@@ -1,7 +1,7 @@
 <template>
   <div class="game">
     <h1>Game:</h1>
-    <CardDeck subject="graphisme"/>
+    <CardDeck/>
   </div>
 </template>
 
