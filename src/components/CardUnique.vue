@@ -1,12 +1,13 @@
 <template>
   <div class="card-container">
-      Carte Unique
-    <h2>{{ card.step }}</h2>
     <div class="card" id="card1">
+      <p>
         Carte: {{ card.id }}<br />
         {{ card.text }}
+      </p>
+       
         <img :src="require(`@/assets/images/${card.image}`)" alt=""/>
-        <div>
+        <div class="button-container">
             <button v-on:click="register_01_click()">{{ card.option_01_text }}</button>
             <button v-on:click="register_02_click()">{{ card.option_02_text }}</button>
         </div>
@@ -42,31 +43,50 @@ export default {
 h2 {
   color: darkblue;
 }
+p{
+  
+}
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 .card-container{
-  display:flex;
+  display: flex;
+  justify-content: center;
   flex-direction:column;
   align-items:center;
+  height: 100%;
+  width: 100%;
 }
 .card {
-  max-width:300px;
-  margin-bottom: 30px;
-  border: 1px solid black;
   display:flex;
   flex-direction:column;
+  margin: 30px;
 }
 
 .left {
   text-align: left;
 }
 img{
-  border: 1px solid red;
+  border: none;
   min-width: 12px;
   min-height:12px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+.button-container{
+  display: flex;
+  justify-content: space-between;
+}
+button{
+outline: none;
+border: none;
+padding: 10px;
+font-size: 1.3rem;
+width: calc(50% - 15px);
+background: white;
 }
 
 @media screen and (max-width: 900px) and (min-width: 600px) {
