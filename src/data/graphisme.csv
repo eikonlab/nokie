@@ -1,4 +1,4 @@
-id,image,text,option_01_text,option_01_next_text,option_02_text,option_02_next_text
-1,image.png,Le texte de la premiere étape ici!,Choix 1,2,Choix 2,3
-2,image.png,Vous avez choisi l'option 1,Choix 1,1,Choix 2,1
-3,image.png,Vous avez choisi l'option 2,Choix 1,1,Choix 2,1
+id,image,step,text,option_01_text,option_02_text,option_01_next_text,option_02_next_text,card_name,is_dialog,bckn_color
+1,nokieContent.png,1,"Salutation, Je suis Nokie ton assistant personnel ! Je t'accompagnerai dans ton travail jusqu'à la fin. La prochaine carte sera la 2.",D'accord.,J'ai hâte !,2,2,Intro,FALSE,#ffff
+2,café.png,1,Nokie : Yes ! Tu as reçu un mail de ton potentiel premier client! La prochaine carte sera la 3.,Voir le mail.,Lire.,3,3,Intro,FALSE,#ffff
+3,mail.png,1,"Gégé76@laboulangeriefrançaise.com : Bonjour, Je m'appelle Gérard et je suis boulanger de père en fils, fils de boulanger. La prochaine carte sera la 1.",J'adore.,J'aime ça.,1,1,Intro,FALSE,#ffff
