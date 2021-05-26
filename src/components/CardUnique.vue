@@ -4,9 +4,7 @@
       <p>
         Carte: {{ card.id }}<br />
         {{ card.text }}<br>
-        step: {{ card.step }}
       </p>
-       
         <img :src="require(`@/assets/images/${card.image}`)" alt=""/>
         <div class="button-container">
             <button v-on:click="register_01_click()">{{ card.option_01_text }}</button>
@@ -41,51 +39,54 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h2 {
-  color: darkblue;
-}
-  
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 
-.card-container{
-  display: flex;
-  justify-content: center;
-  flex-direction:column;
-  align-items:center;
+.card-container {
   height: 100%;
   width: 100%;
 }
 
 .card {
-  display:flex;
-  flex-direction:column;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+p {
+  width: 315px;
+  max-height: 115px;
+  font-size: 22px;
+  font-weight: 200;
+  margin: 20px 30px;
+  text-align: center;
+  color: #4D4D4D;
+}
+
+img {
+  border: none;
+  width: 315px;
+  height: 315px;
+  image-rendering: pixelated;
+  margin: 0px 30px;
+
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
   margin: 30px;
 }
 
-img{
-  border: none;
-  min-width: 12px;
-  min-height:12px;
-  width: 100%;
-  height: auto;
-  margin-bottom: 30px;
-}
-
-.button-container{
-  display: flex;
-  justify-content: space-between;
-}
-
-button{
+button {
   outline: none;
   border: none;
   padding: 10px;
-  font-size: 1.3rem;
-  width: calc(50% - 15px);
-  background: white;
+  min-width: 145px;
+  min-height: 80px;
+  font-size: 20px;
+  background: #FFFFFF;
+  box-shadow: 3px 3px 0 0 rgba(0,0,0,0.50);
+  display: inline-block;
+  word-wrap: break-word;
 }
 </style>
