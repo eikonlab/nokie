@@ -1,14 +1,14 @@
 <template>
   <div class="card-container">
-    <div class="card" id="card1">
+    <div class="card">
       <p>
         Carte: {{ card.id }}<br />
         {{ card.text }}<br>
       </p>
         <img :src="require(`@/assets/images/${card.image}`)" alt=""/>
         <div class="button-container">
-            <button v-on:click="register_01_click()">{{ card.option_01_text }}</button>
-            <button v-on:click="register_02_click()">{{ card.option_02_text }}</button>
+            <button v-on:click="registerClick(card.option_01_nextId)">{{ card.option_01_text }}</button>
+            <button v-on:click="registerClick(card.option_02_nextId)">{{ card.option_02_text }}</button>
         </div>
     </div>
   </div>
@@ -19,18 +19,10 @@ export default {
   name: 'CardUnique',
   props: {card:Object},
   methods: {
-    register_01_click (){
-        const nextCard_01 = this.card.option_01_next_text;
-
-        this.$emit('displayCard', nextCard_01)
-    },
-    register_02_click (){
-        const nextCard_02 = this.card.option_02_next_text;
-
-        this.$emit('displayCard', nextCard_02)
-    }
-        
-    }
+    registerClick (nextId){
+      this.$emit('displayCard', nextId)
+    },        
+  }
 }
 
 
@@ -43,21 +35,29 @@ export default {
 .card-container {
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 100%;
+  align-items: center;
 }
 
 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 315px;
-  max-height: 115px;
+  min-height: 115px;
   font-size: 22px;
   font-weight: 200;
-  margin: 20px 30px;
   text-align: center;
   color: #4D4D4D;
 }
@@ -67,14 +67,12 @@ img {
   width: 315px;
   height: 315px;
   image-rendering: pixelated;
-  margin: 0px 30px;
-
 }
 
 .button-container {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  margin: 30px;
+  justify-content: space-around;
 }
 
 button {
