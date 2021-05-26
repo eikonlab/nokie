@@ -62,15 +62,25 @@ p {
   color: #4D4D4D;
 }
 
+/* possible animation */
+
+/* @keyframes imgSwipe {
+  0%   { left: -80%; }
+  100% { left: 0%; }
+} */
+
 img {
   border: none;
   width: 315px;
   height: 315px;
   image-rendering: pixelated;
+  /* position: relative;
+  left: 0%;
+  animation: imgSwipe 1s; */
 }
 
 .button-container {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-around;
 }
@@ -83,8 +93,17 @@ button {
   min-height: 80px;
   font-size: 20px;
   background: #FFFFFF;
-  box-shadow: 3px 3px 0 0 rgba(0,0,0,0.50);
+  box-shadow: 5px 5px 0 0 rgba(0,0,0,0.50);
   display: inline-block;
   word-wrap: break-word;
+  transition: all 0.2s;
 }
+
+button:hover {
+  background: #FFFFFF;
+  box-shadow: inset 5px 5px 1px rgba(44, 44, 44, 0.5), inset -5px -5px 1px #ffffff;
+  transform: scale(1.05);
+  transform: translate(1px,1px);
+}
+
 </style>
