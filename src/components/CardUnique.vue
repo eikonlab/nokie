@@ -3,7 +3,8 @@
     <div class="card" id="card1">
       <p>
         Carte: {{ card.id }}<br />
-        {{ card.text }}
+        {{ card.text }}<br>
+        step: {{ card.step }}
       </p>
        
         <img :src="require(`@/assets/images/${card.image}`)" alt=""/>
@@ -43,14 +44,13 @@ export default {
 h2 {
   color: darkblue;
 }
-p{
   
-}
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 .card-container{
   display: flex;
   justify-content: center;
@@ -59,15 +59,13 @@ ul {
   height: 100%;
   width: 100%;
 }
+
 .card {
   display:flex;
   flex-direction:column;
   margin: 30px;
 }
 
-.left {
-  text-align: left;
-}
 img{
   border: none;
   min-width: 12px;
@@ -76,23 +74,18 @@ img{
   height: auto;
   margin-bottom: 30px;
 }
+
 .button-container{
   display: flex;
   justify-content: space-between;
 }
+
 button{
-outline: none;
-border: none;
-padding: 10px;
-font-size: 1.3rem;
-width: calc(50% - 15px);
-background: white;
+  outline: none;
+  border: none;
+  padding: 10px;
+  font-size: 1.3rem;
+  width: calc(50% - 15px);
+  background: white;
 }
-
-@media screen and (max-width: 900px) and (min-width: 600px) {
-  h2 {
-      display: none;
-  }
-}
-
 </style>
