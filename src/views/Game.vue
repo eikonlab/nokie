@@ -1,6 +1,5 @@
 <template>
   <div class="game">
-    <h1>Game:</h1>
     <CardDeck/>
   </div>
 </template>
@@ -17,7 +16,8 @@ export default {
 </script>
 
 <style scoped>
-  h1 {
-    color: blue;
-  }
+.game{
+  height: 100%;
+  width: 100%;
+}
 </style>

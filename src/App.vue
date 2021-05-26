@@ -9,12 +9,34 @@
 </template>
 
 <style>
+
+body, html{
+  margin: 0;
+  padding: 0;
+  background-color: #E4F5FF;
+  font-family: 'VT323', monospace;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-size: 1.3rem;
+}
+
+*{
+  font-family: 'VT323', monospace;
+}
+
+nav{
+  position: absolute;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  height: 100%;
+  width: 100%;
 }
 
 #nav {
