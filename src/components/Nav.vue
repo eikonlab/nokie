@@ -1,7 +1,7 @@
 <template>
   <div>
       <nav>
-        <h2>step: {{ currentStep }}</h2>
+        <h2>{{ currentStep }}</h2>
         <div class="links">
           <router-link to="/">Home</router-link> |
           <router-link to="/game">Game</router-link>
@@ -21,20 +21,20 @@ export default {
 
 <style>
 nav {
-  align-self: flex-start;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 50px;
+  height: 40px;
   width: 100%;
   padding: 10px;
   background-color: #FFFFFF;
+  position: fixed;
 }
 
 /* Text styling */
 
 h2, nav {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
 }
