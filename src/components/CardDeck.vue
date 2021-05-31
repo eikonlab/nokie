@@ -18,12 +18,20 @@ export default {
       // cards: require(`../data/${this.subject}.json`),
       cards: require(`../data/graphisme.csv`),
       activeID: 0,
+      currentStep: 0,
     }
   },
   methods: {
     displayCard (id){
+      
       var state = this
-      state.activeID = id
+      state.activeID = id;
+
+      var step = this.cards[id].step;
+      console.log(step);
+      // To DO
+      // Pass this step value to the GAME component.
+      // To be displayed on the header
     }
   }
 }
@@ -35,5 +43,7 @@ export default {
 .content {
   height: 100%;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 </style>

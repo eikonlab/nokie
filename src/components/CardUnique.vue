@@ -1,14 +1,14 @@
 <template>
   <div class="card-container">
-    <div class="card" id="card1">
+    <div class="card">
       <p>
         Carte: {{ card.id }}<br />
         {{ card.text }}<br>
       </p>
         <img :src="require(`@/assets/images/${card.image}`)" alt=""/>
         <div class="button-container">
-            <button v-on:click="register_01_click()">{{ card.option_01_text }}</button>
-            <button v-on:click="register_02_click()">{{ card.option_02_text }}</button>
+            <button v-on:click="registerClick(card.option_01_nextId)">{{ card.option_01_text }}</button>
+            <button v-on:click="registerClick(card.option_02_nextId)">{{ card.option_02_text }}</button>
         </div>
     </div>
   </div>
@@ -19,18 +19,10 @@ export default {
   name: 'CardUnique',
   props: {card:Object},
   methods: {
-    register_01_click (){
-        const nextCard_01 = this.card.option_01_next_text;
-
-        this.$emit('displayCard', nextCard_01)
-    },
-    register_02_click (){
-        const nextCard_02 = this.card.option_02_next_text;
-
-        this.$emit('displayCard', nextCard_02)
-    }
-        
-    }
+    registerClick (nextId){
+      this.$emit('displayCard', nextId)
+    },        
+  }
 }
 
 
@@ -42,24 +34,40 @@ export default {
 
 .card-container {
   height: 100%;
-  width: 100%;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #E4F5FF;
 }
 
 .card {
+  height: 85%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 100%;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 376px)  {
+  .card {
+    height: 80%;
+  }
 }
 
 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 315px;
-  max-height: 115px;
+  min-height: 115px;
   font-size: 22px;
   font-weight: 200;
-  margin: 20px 30px;
   text-align: center;
   color: #4D4D4D;
+  margin: 45px 0px 20px 0px;
 }
 
 img {
@@ -67,14 +75,13 @@ img {
   width: 315px;
   height: 315px;
   image-rendering: pixelated;
-  margin: 0px 30px;
-
 }
 
 .button-container {
+  margin-top: 30px;
+  width: 315px;
   display: flex;
   justify-content: space-between;
-  margin: 30px;
 }
 
 button {
@@ -88,5 +95,16 @@ button {
   box-shadow: 3px 3px 0 0 rgba(0,0,0,0.50);
   display: inline-block;
   word-wrap: break-word;
+  transition: all 0.2s;
 }
+
+@media (hover: hover) and (pointer: fine) {
+  button:hover, button:active {
+  background: #FFFFFF;
+  box-shadow: none;
+  transform: scale(1.05);
+  transform: translate(1px,1px);
+  }
+}
+
 </style>
