@@ -15,7 +15,6 @@ export default {
   },
   data: function () {
     return {
-      // cards: require(`../data/${this.subject}.json`),
       cards: require(`../data/graphisme.csv`),
       activeID: 0,
       currentStep: 0,
@@ -28,7 +27,7 @@ export default {
       state.activeID = id;
 
       var step = this.cards[id].step;
-      console.log(step);
+      this.$emit('changeStep', step);
       // To DO
       // Pass this step value to the GAME component.
       // To be displayed on the header

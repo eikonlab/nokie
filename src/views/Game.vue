@@ -1,7 +1,7 @@
 <template>
   <div class="game">
-    <Nav currentStep="1" />
-    <CardDeck/>
+    <Nav :currentStep="currentStep" />
+    <CardDeck v-on:changeStep="changeStep"/>
   </div>
 </template>
 
@@ -14,6 +14,16 @@ export default {
   components: {
     CardDeck,
     Nav
+  },
+  data: function () {
+    return {
+      currentStep: '',
+    }
+  },
+  methods: {
+    changeStep (step){
+      this.currentStep = step;
+    }
   }
 }
 </script>
