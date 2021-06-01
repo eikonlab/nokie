@@ -1,11 +1,12 @@
 <template>
-  <div class="card-container">
+  <div class="card-container" :style="{'background-color':card.bckn_color}">
     <div class="card">
-      <p>
+      <p class="legend">
         Carte: {{ card.id }}<br />
         {{ card.text }}<br>
       </p>
         <img :src="require(`@/assets/images/${card.image}`)" alt=""/>
+        <p class="legend">{{ card.card_name }}</p>
         <div class="button-container">
             <button v-on:click="registerClick(card.option_01_nextId)">{{ card.option_01_text }}</button>
             <button v-on:click="registerClick(card.option_02_nextId)">{{ card.option_02_text }}</button>
@@ -18,10 +19,11 @@
 export default {
   name: 'CardUnique',
   props: {card:Object},
+
   methods: {
     registerClick (nextId){
       this.$emit('displayCard', nextId)
-    },        
+    },
   }
 }
 
@@ -68,6 +70,10 @@ p {
   text-align: center;
   color: #4D4D4D;
   margin: 45px 0px 20px 0px;
+}
+
+.legend {
+  
 }
 
 img {

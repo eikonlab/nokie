@@ -1,5 +1,5 @@
 <template>
-  <div class="content">
+  <div class="content" :style="{ 'background-image': 'url(' + require('@/assets/images/'+ cards[activeID].bckn_desktop) + ')' }">
     <CardUnique v-bind:card="cards[activeID]" v-on:displayCard="displayCard"/>
   </div>
 </template>
@@ -28,9 +28,6 @@ export default {
 
       var step = this.cards[id].step;
       this.$emit('changeStep', step);
-      // To DO
-      // Pass this step value to the GAME component.
-      // To be displayed on the header
     }
   }
 }
@@ -44,5 +41,8 @@ export default {
   width: 100%;
   display: flex;
   justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>
