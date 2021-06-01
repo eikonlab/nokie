@@ -1,6 +1,6 @@
 <template>
   <div class="content" :style="{ 'background-image': 'url(' + require('@/assets/images/'+ cards[activeID].bckn_desktop) + ')' }">
-    <CardUnique v-bind:card="cards[activeID]" v-on:displayCard="displayCard"/>
+    <CardUnique v-bind:card="cards[activeID]" v-on:displayCard="displayCard" v-on:showDialogBox="showDialogBox"/>
   </div>
 </template>
 
@@ -28,6 +28,9 @@ export default {
 
       var step = this.cards[id].step;
       this.$emit('changeStep', step);
+    },
+    showDialogBox () {
+      this.$emit('showDialogBox');
     }
   }
 }
