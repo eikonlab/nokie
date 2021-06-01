@@ -22,7 +22,11 @@ export default {
 
   methods: {
     registerClick (nextId){
-      this.$emit('displayCard', nextId)
+      this.$emit('displayCard', nextId);
+      const isDialog = this.card.is_dialog;
+      if (isDialog) {
+        this.$emit('showDialogBox')
+      }
     },
   }
 }
@@ -73,7 +77,8 @@ p {
 }
 
 .legend {
-  
+  margin: 10px 0px;
+  min-height: 10px;
 }
 
 img {
