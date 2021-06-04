@@ -2,7 +2,6 @@
   <div class="card-container" :style="{'background-color':card.bckn_color}">
     <div class="card">
       <p class="legend">
-        Carte: {{ card.id }}<br />
         {{ card.text }}<br>
       </p>
         <img :src="require(`@/assets/images/${card.image}`)" alt=""/>
@@ -99,8 +98,8 @@ button {
   outline: none;
   border: none;
   padding: 10px;
-  min-width: 145px;
-  min-height: 80px;
+  width: 145px;
+  height: 80px;
   font-size: 20px;
   background: #FFFFFF;
   box-shadow: 3px 3px 0 0 rgba(0,0,0,0.50);

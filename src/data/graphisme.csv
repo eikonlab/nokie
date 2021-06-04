@@ -1,4 +1,14 @@
 id,image,step,text,option_01_text,option_02_text,option_01_nextId,option_02_nextId,card_name,is_dialog,bckn_color,bckn_desktop
-0,nokieContent.png,Dialoguer,"Salutation, Je suis Nokie ton assistant personnel ! Je t'accompagnerai dans ton travail jusqu'à la fin. La prochaine carte sera la 2.",D'accord.,J'ai hâte !,1,1,Intro,FALSE,#ffff,desktop_bureau.png
-1,cafe.png,Step 2,Nokie : Yes ! Tu as reçu un mail de ton potentiel premier client! La prochaine carte sera la 3.,Voir le mail.,Lire.,2,2,Intro,FALSE,#ffff,desktop_bureau.png
-2,mail.png,Troisième etape,"Gégé76@laboulangeriefrançaise.com : Bonjour, Je m'appelle Gérard et je suis boulanger de père en fils, fils de boulanger. La prochaine carte sera la 1.",J'adore.,J'aime ça.,0,0,Intro,TRUE,#ffff,desktop_bureau.png
+0,nokie_cube.png,Dialoguer,*bip boup bidip bip*,Toucher l'objet,Caresser l'objet,1,1,Cube mystérieux,FALSE,#C8E8FD,desktop_bureau.png
+1,nokie.png,Dialoguer,"""Salutations, Je suis Nokie ton assistant personnel ! Je t'accompagnerai dans ton travail jusqu'à la fin.""",D'accord,J'ai hâte !,2,2,Nokie,FALSE,#C8E8FD,desktop_bureau.png
+2,nokie.png,Dialoguer,"""Yes ! Tu as reçu un mail de ton potentiel premier client!""",Voir le mail,Prendre un café,6,3,Nokie,FALSE,#C8E8FD,desktop_bureau.png
+3,cafe.png,Dialoguer,Ton café était dégueulasse mais tu te sens plus réveillé. N'en abuse pas.,Voir le mail,Encore un !,6,4,Bof..,FALSE,#FDF3CD,desktop_bureau.png
+4,cafe.png,Dialoguer,Ton café était encore plus dégueu. N'en abuse vraiment pas.,Voir le mail,Encore un !,6,5,Affreux.,FALSE,#FDF3CD,desktop_bureau.png
+5,cafe_renv.png,Dialoguer,À la première gorgée de ton café tu sens ton coeur s'affoler et finis par faire une crise cardiaque...,Oh mince...,Zut...,2,2,Sheh,FALSE,#BDBDBD,desktop_bureau.png
+6,mail.png,Dialoguer,"""Bonjour , Je m'appelle Gérard et je suis boulanger de père en fils, fils de boulanger.""",Lire la suite,Continuer,7,7,Gégé76@boulangerie.ch,FALSE,#C8E8FD,desktop_bureau.png
+7,mail.png,Dialoguer,"""Notre boulangerie se transmet de père en fils depuis 1924. J'aimerai changer le ""design"" du logo. Merci""",Appeler le client et prendre RDV,Faire le bon choix,8,8,Gégé76@boulangerie.ch,FALSE,#C8E8FD,desktop_bureau.png
+8,missing.png,Dialoguer,"""Ok j'ai noté ton RDV pour demain avec Gérard. T'as ce qu'il te faut ?""","Non, préparer l'entretien","Oui, c'est carré tkt",11,9,Nokie,FALSE,#C8E8FD,desktop_bureau.png
+9,glande.png,Dialoguer,Tu ne fais plus rien de la journée et arrive le lendemain les mains vides et repars sans client.,Fuck le capitalisme.,Oupsie,8,8,L'oisiveté,FALSE,#BDBDBD,desktop_bureau.png
+10,missing.png,Dialoguer,Tu te réveille le lendemain avec un blackout et Gérard est porté disparu...,"Ok, pas d'apéro.",Merde je l'aimais bien,8,8,"Ah bah c'est bien Nils, super !",FALSE,#BDBDBD,desktop_bureau.png
+11,gerard.png,Dialoguer,"L'entretien est préparé. Arrivé sur place, Gérard vous propose de prendre l'apéro.",Non. Définir ses besoins,Yessay,12,10,Gérard,FALSE,#C8E8FD,desktop_bureau.png
+12,missing.png,Découvrir,"Le lendemain au bureau, Nokie t'aide à rédiger le briefing. ",Commencer les recherches sur le client,Commencer la conceptualisation,14,13,Bureau,TRUE,#C8E8FD,desktop_bureau.png

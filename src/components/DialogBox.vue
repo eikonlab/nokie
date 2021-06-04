@@ -23,17 +23,26 @@ export default {
       if (text=='Dialoguer'){
         return 0;
       }
-      else if (text=='Dialoguer2'){
+      else if (text=='Découvrir'){
         return 1;
       }
-      else if (text=='Dialoguer3'){
+      else if (text=='Définir'){
         return 2;
       }
-      else if (text=='Dialoguer3'){
-        return 2;
+      else if (text=='Développer'){
+        return 3;
       }
-      else if (text=='Dialoguer3'){
-        return 2;
+      else if (text=='Délivrer'){
+        return 4;
+      }
+      else if (text=='Diffuser'){
+        return 5;
+      }
+      else if (text=='Débriefer'){
+        return 6;
+      }
+      else if (text=='Clore'){
+        return 7;
       }
     }
   }
@@ -41,9 +50,22 @@ export default {
 
 </script>
 
+
 <style scoped>
+@keyframes overlay {
+    0% {
+      opacity: 0;
+      top: -100%;
+    }
+    100% {
+      opacity: 1;
+      top: 0;
+    }
+}
+
 .overlay-dialog {
   position: absolute;
+  top: 0;
   z-index: 100;
   height: 100%;
   width: 100%;
@@ -51,6 +73,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: overlay 0.8s ease-in;
 }
 
 .dialog {
