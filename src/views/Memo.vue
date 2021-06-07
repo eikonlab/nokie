@@ -7,7 +7,11 @@
           {{ memo.btn_step }}
         </div>
         <br>
-        <div class="content-memo-text"><img src="@/assets/var_icons/line.svg" alt=""><p>{{ memo.memo_text }}</p><img src="@/assets/var_icons/line.svg" alt=""></div>
+        <div class="content-memo-text">
+          <img src="@/assets/var_icons/line.svg" alt="">
+          <p>{{ memo.memo_text }}</p>
+          <img v-if="index != Object.keys(memos).length - 1" src="@/assets/var_icons/line.svg" alt="">
+        </div>
       </div>
     </div>
   </div>
