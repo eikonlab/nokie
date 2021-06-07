@@ -20,27 +20,24 @@ id,image,step,text,option_01_text,option_02_text,option_01_nextId,option_02_next
 18,mail.png,Définir,Gérard est content du brief et l'a validé.,Yessay,Nice,19,19,Mail de Gérard,FALSE,#FDF3CD,desktop_mail.png
 19,nokie.gif,Définir,"""Ok maintenant on s'occupe des recherches.""",Je suis tout ouïe,Je t'écoute,20,20,Nokie,FALSE,#C8E8FD,desktop_bureau.png
 20,nokie_intello.gif,Définir,"""Je te parle d'analyse de marché, du public, de l'axe de communication, de toute la planification, puis du budget et de la stratégie.""",Ok let's go,J'abandonne,22,21,Nokie,FALSE,#C8E8FD,desktop_bureau.png
-21,nokie_vener.gif,Définir,"""T'es sérieux là ?""",C bon jcontinue,"Oui j'ai juré
-j'abandonne.",20,23,Nokie n'en peut plus,FALSE,#BDBDBD,desktop_bureau.png
+21,nokie_vener.gif,Définir,"""T'es sérieux là ?""",C bon jcontinue,"Oui j'ai juré j'abandonne.",20,23,Nokie n'en peut plus,FALSE,#BDBDBD,desktop_bureau.png
 22,nokie_chargement.gif,Définir,"*bip boup bidip bip* ""Ok j'ai terminé l'étape de définition.""",T'es trop fort,Ça fait plaisir,25,25,Nokie,4,#C8E8FD,desktop_bureau.png
 23,nokinator.gif,Définir,"Nokie en a marre de vos conneries, il veut en finir avec vous comme avec le précédent.",Accepter son sort,Essayer de se battre,1,24,Nokinator,FALSE,#BDBDBD,desktop_bureau.png
 24,nokinator_sang.gif,Définir,Tes 8h journalières passés assis ne t'ont pas aidés dans le combat.,Bon d'accord je suis mort,Ok j'ai compris,1,1,Nokinator,FALSE,#BDBDBD,desktop_bureau.png
 25,nokie_intello.gif,Développer,"""Ok, maintenant il nous faudrait des idées et concepts...""",Lançons la recherche !,Fumer de l'opium pour trouver l'inspi,27,26,Nokie,FALSE,#C8E8FD,desktop_bureau.png
 26,mort_vomi.png,Développer,"Tu finis super confus, et constipé. Tu t'endors et t'étouffes dans ton vomis pendant ton sommeil.",Relou,Trop relou,25,22,BB: S12 E12,FALSE,#BDBDBD,desktop_bureau.png
 27,creation.png,Développer,"T'enchaines les mindmaps, messages à véhiculer, moodboards, recherches graphiques et typographiques.",Présenter à ta maman,Préparer les supports de présentation,28,29,magie en opération,FALSE,#FDF3CD,desktop_bureau.png
-28,maman.png,Développer,"On aime tous beaucoup sa maman, mais ce n'est pas elle la cliente.",Bien vu.,Je comprends,27,27,<3 Mom <3,FALSE,#BDBDBD,desktop_bureau.png
+28,maman.gif,Développer,"On aime tous beaucoup sa maman, mais ce n'est pas elle la cliente.",Bien vu.,Je comprends,27,27,<3 Mom <3,FALSE,#BDBDBD,desktop_bureau.png
 29,creation.png,Développer,"Tu prépares l'argumentaire, les mockups, les maquettes et tu répètes ta présentation.",Présenter au client,Présenter à ta maman,30,28,magie en opération,5,#FDF3CD,desktop_bureau.png
 30,gerard_intello.gif,Délivrer,"""C'est super ! J'adore ! Magnifique ! Je trouve juste que l'interlignage entre le logo et la baseline est un peu petit faudrait juste ajuster ça.""",Sans problème !,Je m'en occupe !,31,31,Gérard ex-IMD,FALSE,#C8E8FD,desktop_boulangerie.png
 31,bureau.gif,Délivrer,"Une fois les retouches faites, tu crées les déclinaisons pour les différents médias.",Faire des recherches sur le client,Créer logo et charte graphique,32,33,Bureau,FALSE,#FDF3CD,desktop_bureau.png
 32,nokie_bug.gif,Délivrer,*brrr bzz bkkrr brrr bzz bkkrr*,Je..,Qu'est-ce que...,34,34,Nokie deglingos,FALSE,#BDBDBD,desktop_bureau.png
 33,nokie.gif,Délivrer,"""Parfait ! On doit juste livrer les réalisations et faire valider avant la production. N'oublie pas le BAT (bon à tirer) pour Gégé !""",Faisons ça,Let's go,35,35,Nokie,FALSE,#C8E8FD,desktop_bureau.png
-34,nokie_destroy.gif,Délivrer,"
-T'as déjà fait les recherches... Nokie est perturbé par les ondes de ton QI négatif et s'autodétruit.",Je retiens la leçon,Message reçu,30,30,RIP rest in peace Nokie,FALSE,#BDBDBD,desktop_bureau.png
+34,nokie_destroy.gif,Délivrer,"T'as déjà fait les recherches... Nokie est perturbé par les ondes de ton QI négatif et s'autodétruit.",Je retiens la leçon,Message reçu,30,30,RIP rest in peace Nokie,FALSE,#BDBDBD,desktop_bureau.png
 35,mail.png,Délivrer,"""C'est super ! Ça me convient parfaitement ! Je vous ai signé votre BAT truc""",Lancer l'impression,Exporter dans les normes,36,37,Gégé76@boulangerie.com,FALSE,#FDF3CD,desktop_mail.png
 36,im_fine.png,Délivrer,"Tu n'as pas exporté dans les normes, ta typo n'apparait même pas sur les affiches...",S'en vouloir,Regretter,35,35,Bureau,6,#BDBDBD,desktop_flammes.png
 37,bureau.gif,Diffuser,Une fois tous tes fichiers correctement exportés et les vérifications faites tu envoies le tout à l'impression.,Chu trop fort,Yes,38,38,Bureau,FALSE,#FDF3CD,desktop_bureau.png
-38,nokie_intello.gif,Diffuser,"""C'est envoyé ! Restons tout de même préparés à toute éventualité.""","Suivre et contrôler
-la production",Partir en weekend,40,39,Bureau,FALSE,#C8E8FD,desktop_bureau.png
+38,nokie_intello.gif,Diffuser,"""C'est envoyé ! Restons tout de même préparés à toute éventualité.""","Suivre et contrôler la production",Partir en weekend,40,39,Bureau,FALSE,#C8E8FD,desktop_bureau.png
 39,incendie.png,Diffuser,L'imprimerie prend feu et tu ne l'apprends que beaucoup plus tard.,Doumage,le seum,38,38,Imprimerie on fire,7,#BDBDBD,desktop_flammes.png
 40,nokie.gif,Débriefer,"""Magnifique ! L'imprimeur nous a confirmé la livraison et a fourni un justificatif.""",Partager sur les réseaux sociaux,Recueillir les revues de presse,41,41,Bureau,FALSE,#C8E8FD,desktop_bureau.png
 41,nokie_intello.gif,Débriefer,"""C'est fait ! On pourrait debriefer avec le client maintenant ?""",Nan pas besoin,Avec joie,42,43,Bureau,FALSE,#C8E8FD,desktop_bureau.png
