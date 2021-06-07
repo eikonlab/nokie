@@ -1,11 +1,11 @@
 <template>
-  <div class="card-container">
+  <div class="card-container" :style="{'background-color':card.bckn_color}">
     <div class="card">
-      <p>
-        Carte: {{ card.id }}<br />
+      <p class="legend">
         {{ card.text }}<br>
       </p>
         <img :src="require(`@/assets/images/${card.image}`)" alt=""/>
+        <p class="legend">{{ card.card_name }}</p>
         <div class="button-container">
             <button v-on:click="registerClick(card.option_01_nextId)">{{ card.option_01_text }}</button>
             <button v-on:click="registerClick(card.option_02_nextId)">{{ card.option_02_text }}</button>
@@ -18,10 +18,16 @@
 export default {
   name: 'CardUnique',
   props: {card:Object},
+  updated: function () {
+    const dialogId = this.card.dialog_id;
+    if (dialogId) {
+      this.$emit('showDialogBox', dialogId)
+    }
+  },
   methods: {
     registerClick (nextId){
-      this.$emit('displayCard', nextId)
-    },        
+      this.$emit('displayCard', nextId);
+    },
   }
 }
 
@@ -70,6 +76,11 @@ p {
   margin: 45px 0px 20px 0px;
 }
 
+.legend {
+  margin: 10px 0px;
+  min-height: 10px;
+}
+
 img {
   border: none;
   width: 315px;
@@ -88,8 +99,8 @@ button {
   outline: none;
   border: none;
   padding: 10px;
-  min-width: 145px;
-  min-height: 80px;
+  width: 145px;
+  height: 80px;
   font-size: 20px;
   background: #FFFFFF;
   box-shadow: 3px 3px 0 0 rgba(0,0,0,0.50);

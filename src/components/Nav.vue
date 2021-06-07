@@ -4,7 +4,8 @@
         <h2>{{ currentStep }}</h2>
         <div class="links">
           <router-link to="/">Home</router-link> |
-          <router-link to="/game">Game</router-link>
+          <router-link to="/game">Game</router-link> | 
+          <router-link to="/memo">Memo</router-link>
         </div>
         <img src="@/assets/var_icons/nokie_menu_notif.svg" alt="">
       </nav>

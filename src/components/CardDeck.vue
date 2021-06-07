@@ -1,6 +1,6 @@
 <template>
-  <div class="content">
-    <CardUnique v-bind:card="cards[activeID]" v-on:displayCard="displayCard"/>
+  <div class="content" :style="{ 'background-image': 'url(' + require('@/assets/images/'+ cards[activeID].bckn_desktop) + ')' }">
+    <CardUnique v-bind:card="cards[activeID]" v-on:displayCard="displayCard" v-on:showDialogBox="showDialogBox"/>
   </div>
 </template>
 
@@ -15,7 +15,7 @@ export default {
   },
   data: function () {
     return {
-      cards: require(`../data/graphisme.csv`),
+      cards: require(`../data/graphisme_cards.csv`),
       activeID: 0,
       currentStep: 0,
     }
@@ -28,9 +28,9 @@ export default {
 
       var step = this.cards[id].step;
       this.$emit('changeStep', step);
-      // To DO
-      // Pass this step value to the GAME component.
-      // To be displayed on the header
+    },
+    showDialogBox (dialogId) {
+      this.$emit('showDialogBox', dialogId);
     }
   }
 }
@@ -44,5 +44,9 @@ export default {
   width: 100%;
   display: flex;
   justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.8s;
 }
 </style>
