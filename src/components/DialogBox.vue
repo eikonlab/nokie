@@ -40,7 +40,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: overlay 0.6s ease-out;
+  animation: overlay 0.5s ease-out;
 }
 
 .dialog {

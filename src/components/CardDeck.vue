@@ -47,5 +47,6 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: all 0.8s;
 }
 </style>
