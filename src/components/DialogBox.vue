@@ -73,7 +73,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: overlay 0.8s ease-in;
+  animation: overlay 0.7s ease-out;
 }
 
 .dialog {
