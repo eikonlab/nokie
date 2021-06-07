@@ -15,7 +15,7 @@ export default {
   },
   data: function () {
     return {
-      cards: require(`../data/graphisme.csv`),
+      cards: require(`../data/graphisme_cards.csv`),
       activeID: 0,
       currentStep: 0,
     }
@@ -29,8 +29,8 @@ export default {
       var step = this.cards[id].step;
       this.$emit('changeStep', step);
     },
-    showDialogBox () {
-      this.$emit('showDialogBox');
+    showDialogBox (dialogId) {
+      this.$emit('showDialogBox', dialogId);
     }
   }
 }

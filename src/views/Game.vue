@@ -2,8 +2,8 @@
   <div class="game">
     <Nav :currentStep="currentStep" />
     <CardDeck v-on:changeStep="changeStep" v-on:showDialogBox="showDialogBox"/>
-    <div v-if="isDialog" class="dialogContainer">
-      <DialogBox :dialogBox="dialogBox" v-on:hideDialogBox="hideDialogBox" :currentStep="currentStep"/>
+    <div v-if="dialogId" class="dialogContainer">
+      <DialogBox :memos="memos" v-on:hideDialogBox="hideDialogBox" :dialogId="dialogId"/>
     </div>
   </div>
 </template>
@@ -23,19 +23,19 @@ export default {
   data: function () {
     return {
       currentStep: '',
-      dialogBox: require(`../data/dialogBox.csv`),
-      isDialog: false,
+      memos: require(`../data/graphisme_memos.csv`),
+      dialogId: false,
     }
   },
   methods: {
     changeStep (step){
       this.currentStep = step;
     },
-    showDialogBox() {
-      this.isDialog = true;
+    showDialogBox(dialogId) {
+      this.dialogId = dialogId;
     },
     hideDialogBox() {
-      this.isDialog = false;
+      this.dialogId = false;
     }
   }
 }

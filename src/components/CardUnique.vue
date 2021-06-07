@@ -18,14 +18,15 @@
 export default {
   name: 'CardUnique',
   props: {card:Object},
-
+  updated: function () {
+    const dialogId = this.card.dialog_id;
+    if (dialogId) {
+      this.$emit('showDialogBox', dialogId)
+    }
+  },
   methods: {
     registerClick (nextId){
       this.$emit('displayCard', nextId);
-      const isDialog = this.card.is_dialog;
-      if (isDialog) {
-        this.$emit('showDialogBox')
-      }
     },
   }
 }
