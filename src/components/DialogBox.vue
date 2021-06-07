@@ -24,11 +24,9 @@
 @keyframes overlay {
     0% {
       opacity: 0;
-      top: -100%;
     }
     100% {
       opacity: 1;
-      top: 0;
     }
 }
 
@@ -38,11 +36,11 @@
   z-index: 100;
   height: 100%;
   width: 100%;
-  background: rgba(0,0,0,0.55);
+  background: rgba(0,0,0,0.6);
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: overlay 0.7s ease-out;
+  animation: overlay 0.6s ease-out;
 }
 
 .dialog {
