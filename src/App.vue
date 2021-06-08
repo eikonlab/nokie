@@ -22,11 +22,8 @@ getStorage();
   0% {
     background: #FFDB70;
   }
-  33% {
+  50% {
     background: #1CD0FF;
-  }
-  66% {
-    background: #000000;
   }
   100% {
     background: #FFDB70;
@@ -39,7 +36,7 @@ body, html {
   font-size: 1.3rem;
   height: 100%;
   -webkit-font-smoothing: antialiased;
-  animation: bckn 4s linear infinite alternate both;
+  animation: bckn 6s ease-in-out infinite;
 }
 
 .app {

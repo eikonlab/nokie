@@ -51,7 +51,7 @@ export default {
   animation: float 6s ease-in-out infinite;
 }
 
-@media only screen and (max-width: 1400px) and (min-width: 376px)  {
+@media only screen and (max-width: 2000px) and (min-width: 376px)  {
   .logo {
     width: 30%;
   }

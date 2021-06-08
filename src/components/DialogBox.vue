@@ -37,7 +37,7 @@
           defaultDropRate: 15,
           windSpeedMax: 2,
         });
-      window.setTimeout(() => {this.stop()},1500)
+      window.setTimeout(() => {this.stop();window.setTimeout(()=>{const conf = document.getElementById("confetti-canvas");conf.remove();},4000)},1500)
       },
       stop() {
         this.$confetti.stop();
