@@ -5,7 +5,7 @@
         {{ card.text }}<br>
       </p>
         <img :src="require(`@/assets/images/${card.image}`)" alt=""/>
-        <p class="legend">{{ card.card_name }}</p>
+        <figcaption class="legend">{{ card.card_name }}</figcaption>
         <div class="button-container">
             <button v-on:click="registerClick(card.option_01_nextId)">{{ card.option_01_text }}</button>
             <button v-on:click="registerClick(card.option_02_nextId)">{{ card.option_02_text }}</button>
@@ -48,8 +48,14 @@ export default {
   background-color: #E4F5FF;
 }
 
+@media (orientation: portrait) {
+  .card-container {
+    width: 100%;
+  }
+}
+
 .card {
-  height: 85%;
+  min-height: 85%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -76,9 +82,13 @@ p {
   margin: 45px 0px 20px 0px;
 }
 
-.legend {
+figcaption {
   margin: 10px 0px;
   min-height: 10px;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+  color: #4D4D4D;
 }
 
 img {
@@ -87,6 +97,7 @@ img {
   height: 315px;
   image-rendering: pixelated;
 }
+
 
 .button-container {
   margin-top: 30px;

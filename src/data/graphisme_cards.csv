@@ -7,7 +7,7 @@ id,image,step,text,option_01_text,option_02_text,option_01_nextId,option_02_next
 5,cafe_renv.gif,Dialoguer,À la première gorgée de ton café tu sens ton coeur s'affoler et finis par faire une crise cardiaque...,Oh mince...,Zut...,2,2,Sheh,FALSE,#BDBDBD,desktop_bureau.png
 6,mail.png,Dialoguer,"""Bonjour , Je m'appelle Gérard et je suis boulanger de père en fils, fils de boulanger.""",Lire la suite,Continuer,7,7,Gégé76@boulangerie.ch,1,#FDF3CD,desktop_mail.png
 7,mail.png,Dialoguer,"""Notre boulangerie se transmet de père en fils depuis 1924. J'aimerai changer le ""design"" du logo. Merci""",Appeler le client et prendre RDV,Faire le bon choix,8,8,Gégé76@boulangerie.ch,FALSE,#FDF3CD,desktop_mail.png
-8,nokie_intello.gif,Dialoguer,"""Ok j'ai noté ton RDV pour demain avec Gérard. T'as ce qu'il te faut ?""","Non, préparer l'entretien","Oui, c'est carré tkt",11,9,Nokie,FALSE,#C8E8FD,desktop_bureau.png
+8,nokie_intello.gif,Dialoguer,"""Ok j'ai noté ton RDV pour demain avec Gérard. T'as ce qu'il te faut ?""","Non, préparer l'entretien","Oui, c'est carré tkt",11,9,Nokie,FALSE,#C8E8FD,desktop_bureau.png
 9,glande.gif,Dialoguer,Tu ne fais plus rien de la journée et arrive le lendemain les mains vides et repars sans client.,Fuck le capitalisme.,Oupsie,8,8,L'oisiveté,FALSE,#BDBDBD,desktop_bureau.png
 10,affiche_perdu.png,Dialoguer,Tu te réveille le lendemain avec un blackout et Gérard est porté disparu...,"Ok, pas d'apéro.",Merde je l'aimais bien,8,8,"Ah bah c'est bien Nils, super !",FALSE,#BDBDBD,desktop_bureau.png
 11,gerard.gif,Dialoguer,"L'entretien est préparé. Arrivé sur place, Gérard vous propose de prendre l'apéro.",Non. Définir ses besoins,Yessay,12,10,Gérard,2,#C8E8FD,desktop_boulangerie.png
@@ -29,7 +29,7 @@ id,image,step,text,option_01_text,option_02_text,option_01_nextId,option_02_next
 27,creation.png,Développer,"T'enchaines les mindmaps, messages à véhiculer, moodboards, recherches graphiques et typographiques.",Présenter à ta maman,Préparer les supports de présentation,28,29,magie en opération,FALSE,#FDF3CD,desktop_bureau.png
 28,maman.gif,Développer,"On aime tous beaucoup sa maman, mais ce n'est pas elle la cliente.",Bien vu.,Je comprends,27,27,<3 Mom <3,FALSE,#BDBDBD,desktop_bureau.png
 29,creation.png,Développer,"Tu prépares l'argumentaire, les mockups, les maquettes et tu répètes ta présentation.",Présenter au client,Présenter à ta maman,30,28,magie en opération,5,#FDF3CD,desktop_bureau.png
-30,gerard_intello.gif,Délivrer,"""C'est super ! J'adore ! Magnifique ! Je trouve juste que l'interlignage entre le logo et la baseline est un peu petit faudrait juste ajuster ça.""",Sans problème !,Je m'en occupe !,31,31,Gérard ex-IMD,FALSE,#C8E8FD,desktop_boulangerie.png
+30,gerard_intello.gif,Délivrer,"""C'est super ! J'adore ! Magnifique ! Je trouve juste que l'interlignage entre le logo et la baseline est un peu petit faudrait juste ajuster ça.""",Sans problème !,Je m'en occupe !,31,31,Gérard ex-IMD,FALSE,#C8E8FD,desktop_boulangerie.png
 31,bureau.gif,Délivrer,"Une fois les retouches faites, tu crées les déclinaisons pour les différents médias.",Faire des recherches sur le client,Créer logo et charte graphique,32,33,Bureau,FALSE,#FDF3CD,desktop_bureau.png
 32,nokie_bug.gif,Délivrer,*brrr bzz bkkrr brrr bzz bkkrr*,Je..,Qu'est-ce que...,34,34,Nokie deglingos,FALSE,#BDBDBD,desktop_bureau.png
 33,nokie.gif,Délivrer,"""Parfait ! On doit juste livrer les réalisations et faire valider avant la production. N'oublie pas le BAT (bon à tirer) pour Gégé !""",Faisons ça,Let's go,35,35,Nokie,FALSE,#C8E8FD,desktop_bureau.png
@@ -41,7 +41,7 @@ id,image,step,text,option_01_text,option_02_text,option_01_nextId,option_02_next
 39,incendie.png,Diffuser,L'imprimerie prend feu et tu ne l'apprends que beaucoup plus tard.,Doumage,le seum,38,38,Imprimerie on fire,7,#BDBDBD,desktop_flammes.png
 40,nokie.gif,Débriefer,"""Magnifique ! L'imprimeur nous a confirmé la livraison et a fourni un justificatif.""",Partager sur les réseaux sociaux,Recueillir les revues de presse,41,41,Bureau,FALSE,#C8E8FD,desktop_bureau.png
 41,nokie_intello.gif,Débriefer,"""C'est fait ! On pourrait debriefer avec le client maintenant ?""",Nan pas besoin,Avec joie,42,43,Bureau,FALSE,#C8E8FD,desktop_bureau.png
-42,nokie_vener.png,Débriefer,"""Mais bien sur que y'a besoin ! C'est essentiel.""",T'as raison,C'est bon wsh,41,40,Nokie en a marre,8,#BDBDBD,desktop_bureau.png
-43,gerard.gif,Clore,"""Écoutez, moi je suis très content du résultat ! Ça plaît à toute la famille. Merci pour votre travail.""",Je ne fais que mon métier,Ravi que ça vous plaise,44,44,Gérard,FALSE,#C8E8FD,desktop_boulangerieu.png
+42,nokie_vener.gif,Débriefer,"""Mais bien sur que y'a besoin ! C'est essentiel.""",T'as raison,C'est bon wsh,41,40,Nokie en a marre,8,#BDBDBD,desktop_bureau.png
+43,gerard.gif,Clore,"""Écoutez, moi je suis très content du résultat ! Ça plaît à toute la famille. Merci pour votre travail.""",Je ne fais que mon métier,Ravi que ça vous plaise,44,44,Gérard,FALSE,#C8E8FD,desktop_boulangerie.png
 44,nokie.gif,Clore,"""Il reste plus qu'à ranger tout ça, faire les dernières factures, reprendre contact si besoin avec Gérard et archiver le mandat !""",Faisons tout ça,On a finit la ?,45,45,Bureau,9,#C8E8FD,desktop_bureau.png
 45,nokie_fete.gif,C la teuf,Vous fêtez ça avec Nokie à Ibiza et c'est déjà la fin de cette belle aventure de graphiste !,Je suis satisfait,Voir le mémo,1,1,Ibiza,FALSE,#C8E8FD,desktop_ibiza.png

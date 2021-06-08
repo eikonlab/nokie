@@ -30,6 +30,7 @@ nav {
   padding: 10px;
   background-color: #FFFFFF;
   position: fixed;
+  top: 0px;
 }
 
 /* Text styling */
