@@ -1,6 +1,7 @@
 <template>
   <div class="content" :style="{ 'background-image': 'url(' + require('@/assets/images/'+ cards[activeID].bckn_desktop) + ')' }">
     <CardUnique v-bind:card="cards[activeID]" v-on:displayCard="displayCard" v-on:showDialogBox="showDialogBox"/>
+    <button class="storage" v-on:click="clearStorage()"></button>
   </div>
 </template>
 
@@ -22,6 +23,7 @@ export default {
   },
   methods: {
     displayCard (id){
+      localStorage.setItem('CardID', id)
       
       var state = this
       state.activeID = id;
@@ -31,6 +33,10 @@ export default {
     },
     showDialogBox (dialogId) {
       this.$emit('showDialogBox', dialogId);
+    },
+    clearStorage () {
+      localStorage.removeItem('CardID');
+      alert('hehe ca marche')
     }
   }
 }
@@ -48,5 +54,11 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 0.6s;
+}
+
+.storage {
+  position: absolute;
+  top: 0;
+  height: 20px;
 }
 </style>

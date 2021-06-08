@@ -85,10 +85,10 @@ p {
 figcaption {
   margin: 10px 0px;
   min-height: 10px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 200;
   text-align: center;
-  color: #4D4D4D;
+  color: rgba(0,0,0,0.5);
 }
 
 img {

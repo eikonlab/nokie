@@ -1,7 +1,6 @@
 <template>
   <div class="overlay-dialog">
     <div class="dialog">
-      <img src="@/assets/var_icons/nokie_menu.svg" alt="">
       <p>{{ memos[dialogId].text_dialog }}</p>
       <img  class="trophe" src="@/assets/var_icons/trophe.gif" alt="">
       <div class="button-container">
@@ -13,9 +12,37 @@
 </template>
 
 <script>
+  import Vue from 'vue'
+  import VueConfetti from 'vue-confetti'
+ 
+  Vue.use(VueConfetti)
+
   export default {
     name: 'DialogBox',
     props: ['memos','dialogId'],
+    mounted (){
+      this.start();
+      console.log('start');
+    },
+    methods: {
+      start() {
+        this.$confetti.start({
+          particles: [
+            {
+              type: 'rect',
+              size: 8,
+            },
+          ],
+          particlesPerFrame: 2,
+          defaultDropRate: 15,
+          windSpeedMax: 2,
+        });
+      window.setTimeout(() => {this.stop()},1500)
+      },
+      stop() {
+        this.$confetti.stop();
+      }
+    }
   }
 </script>
 

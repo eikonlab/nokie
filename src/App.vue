@@ -4,7 +4,34 @@
   </div>
 </template>
 
+<script>
+function getStorage () {
+  let localValue = localStorage.getItem('CardID');
+    if (localValue) {
+      var state = this;
+      state.activeID = localValue;
+    }
+}
+getStorage();
+</script>
+
+
 <style>
+
+@keyframes bckn {
+  0% {
+    background: #FFDB70;
+  }
+  33% {
+    background: #1CD0FF;
+  }
+  66% {
+    background: #000000;
+  }
+  100% {
+    background: #FFDB70;
+  }
+}
 
 body, html {
   margin: 0;
@@ -12,7 +39,7 @@ body, html {
   font-size: 1.3rem;
   height: 100%;
   -webkit-font-smoothing: antialiased;
-  background-color: #fef9f5;
+  animation: bckn 4s linear infinite alternate both;
 }
 
 .app {
@@ -22,5 +49,17 @@ body, html {
 
 * {
   font-family: 'VT323', monospace;
+}
+
+#confetti-canvas {
+  display: block;
+  pointer-events: none;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 1000;
+  user-select: none;
+  pointer-events: none;
 }
 </style>

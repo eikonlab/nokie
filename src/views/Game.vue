@@ -2,7 +2,7 @@
   <div class="game">
     <Nav :currentStep="currentStep" />
     <CardDeck v-on:changeStep="changeStep" v-on:showDialogBox="showDialogBox"/>
-    <div v-if="dialogId" class="dialogContainer">
+    <div v-if="dialogId && !hasDialogIdAlreadyBeenShown()" class="dialogContainer">
       <DialogBox :memos="memos" v-on:hideDialogBox="hideDialogBox" :dialogId="dialogId"/>
     </div>
   </div>
@@ -25,6 +25,7 @@ export default {
       currentStep: '',
       memos: require(`../data/graphisme_memos.csv`),
       dialogId: false,
+      dialogIdShown: [],
     }
   },
   methods: {
@@ -35,7 +36,17 @@ export default {
       this.dialogId = dialogId;
     },
     hideDialogBox() {
+      this.dialogIdShown.push(this.dialogId);
       this.dialogId = false;
+    },
+    hasDialogIdAlreadyBeenShown() {
+      let hasDialogBeenShown = false;
+      this.dialogIdShown.forEach((element) => {
+        if (this.dialogId == element) {
+          hasDialogBeenShown = true;
+        }
+      });
+      return hasDialogBeenShown
     }
   }
 }
