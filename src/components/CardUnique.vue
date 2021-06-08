@@ -98,7 +98,6 @@ img {
   image-rendering: pixelated;
 }
 
-
 .button-container {
   margin-top: 30px;
   width: 315px;
