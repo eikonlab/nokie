@@ -3,9 +3,8 @@
     <Nav />
     <div class="home-content">
       <img class="logo" src="@/assets/var_icons/carre.svg" alt="">
-      <!-- <span><a href="#">Test lien</a></span> -->
-      <button>Start</button>
-      <button>Reprendre</button>
+      <button>Nouvelle partie</button>
+      <button>Reprendre partie</button>
     </div>
   </div>
 </template>
@@ -22,11 +21,11 @@ export default {
 </script>
 
 <style scoped>
-/* span a {
+.lien a {
   color: #198daa;
   text-decoration: none;
-
-} */
+  box-shadow: inset 0 -0.45em #ffff;
+}
 
 
 .home-content {
@@ -42,13 +41,13 @@ export default {
 
 @keyframes float {
 	0% {
-		transform: translatey(0px);
+		transform: translate(0px, 0px);
 	}
 	50% {
-		transform: translatey(-20px);
+		transform: translate(-20px, 20px);
 	}
 	100% {
-		transform: translatey(0px);
+		transform: translate(0px, 0px);
 	}
 }
 
