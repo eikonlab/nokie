@@ -6,7 +6,7 @@ id,image,step,text,option_01_text,option_02_text,option_01_nextId,option_02_next
 4,cafe.gif,Dialoguer,Ton café était encore plus dégueu. N'en abuse vraiment pas.,Voir le mail,Encore un !,6,5,Affreux.,FALSE,#FDF3CD,desktop_bureau.png
 5,cafe_renv.gif,Dialoguer,À la première gorgée de ton café tu sens ton coeur s'affoler et finis par faire une crise cardiaque...,Oh mince...,Zut...,2,2,Sheh,FALSE,#BDBDBD,desktop_bureau.png
 6,mail.png,Dialoguer,"""Bonjour , Je m'appelle Gérard et je suis boulanger de père en fils, fils de boulanger.""",Lire la suite,Continuer,7,7,Gégé76@boulangerie.ch,FALSE,#FDF3CD,desktop_mail.png
-7,mail.png,Dialoguer,"""Notre boulangerie se transmet de père en fils depuis 1924. J'aimerai changer le ""design"" du logo. Merci""",Appeler le client et prendre RDV,La réponse C,8,8,Gégé76@boulangerie.ch,1,#FDF3CD,desktop_mail.png
+7,mail.png,Dialoguer,"""Notre boulangerie se transmet de père en fils depuis 1924. J'aimerais changer le ""design"" du logo. Merci""",Appeler le client et prendre RDV,La réponse D,8,8,Gégé76@boulangerie.ch,1,#FDF3CD,desktop_mail.png
 8,nokie_intello.gif,Dialoguer,"""Ok j'ai appelé et noté ton RDV pour demain avec Gérard. T'as ce qu'il te faut ?""","Oui, c'est carré tkt","Non, préparer l'entretien",9,11,Nokie,FALSE,#C8E8FD,desktop_bureau.png
 9,glande.gif,Dialoguer,Tu ne fais plus rien de la journée et arrive le lendemain les mains vides et repars sans client.,Fuck le capitalisme.,Oupsie,8,8,L'oisiveté,FALSE,#BDBDBD,desktop_bureau.png
 10,affiche_perdu.png,Dialoguer,Tu te réveilles le lendemain avec un blackout et Gérard est porté disparu...,"Ok, pas d'apéro.",Merde je l'aimais bien,8,8,"Ah bah c'est bien Nils, super !",FALSE,#BDBDBD,desktop_bureau.png
