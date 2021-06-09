@@ -21,7 +21,18 @@ export default {
       currentStep: 0,
     }
   },
+  mounted (){
+    this.getStorage();
+  },
   methods: {
+    getStorage () {
+      let localValue = localStorage.getItem('CardID');
+        if (localValue) {
+          var state = this;
+          state.activeID = localValue;
+          console.log("storage", localValue);
+        }
+    },
     displayCard (id){
       localStorage.setItem('CardID', id)
       
@@ -36,7 +47,7 @@ export default {
     },
     clearStorage () {
       localStorage.removeItem('CardID');
-      alert('hehe ca marche')
+      alert('cache vidé')
     }
   }
 }

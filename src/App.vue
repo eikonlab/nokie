@@ -4,18 +4,6 @@
   </div>
 </template>
 
-<script>
-function getStorage () {
-  let localValue = localStorage.getItem('CardID');
-    if (localValue) {
-      var state = this;
-      state.activeID = localValue;
-    }
-}
-getStorage();
-</script>
-
-
 <style>
 
 @keyframes bckn {

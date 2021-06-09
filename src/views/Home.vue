@@ -3,6 +3,7 @@
     <Nav />
     <div class="home-content">
       <img class="logo" src="@/assets/var_icons/carre.svg" alt="">
+      <!-- <span><a href="#">Test lien</a></span> -->
       <button>Start</button>
       <button>Reprendre</button>
     </div>
@@ -21,6 +22,13 @@ export default {
 </script>
 
 <style scoped>
+/* span a {
+  color: #198daa;
+  text-decoration: none;
+
+} */
+
+
 .home-content {
   width: 100%;
   height: 500px;
@@ -48,7 +56,7 @@ export default {
   width: 60%;
   position: relative;
   top: -20%;
-  animation: float 6s ease-in-out infinite;
+  animation: float 6s steps(12, end) infinite;
 }
 
 @media only screen and (max-width: 2000px) and (min-width: 376px)  {
