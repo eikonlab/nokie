@@ -55,6 +55,7 @@ export default {
 
 .content-memo-text img {
   height: 45px;
+  align-self: center;
 }
 
 .step-title {

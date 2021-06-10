@@ -63,7 +63,7 @@ export default {
   align-items: center;
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 376px)  {
+@media only screen and (max-width: 2000px) and (min-width: 376px)  {
   .card {
     height: 80%;
   }
@@ -126,6 +126,23 @@ button {
   transform: scale(1.05);
   transform: translate(1px,1px);
   }
+}
+/* @keyframes myAnimCardRotate {
+  0% {transform: rotate(0deg);}
+  25% {transform: rotate(-6deg);}
+  75% {transform: rotate(6deg);}
+  100% {transform: rotate(0deg);}
+} */
+@keyframes myAnimCard {
+	0% {transform: translateX(0px);}
+	50% {transform: translateY(-10px);}
+	100% {transform: translateX(0px);}
+}
+
+img {
+  /* animation: myAnimCardRotate 4s ease-in-out infinite; */
+  /* transform-origin: center bottom; */
+  animation: myAnimCard 4s steps(12, end) infinite;
 }
 
 </style>

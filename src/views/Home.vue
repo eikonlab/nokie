@@ -3,30 +3,34 @@
     <Nav />
     <div class="home-content">
       <img class="logo" src="@/assets/var_icons/carre.svg" alt="">
-      <button>Nouvelle partie</button>
-      <button>Reprendre partie</button>
+      <button>
+        <router-link to="/game">Nouvelle Partie</router-link>
+      </button>
+      <button>
+        <router-link to="/game">Reprendre le jeu</router-link>
+      </button>
     </div>
   </div>
 </template>
 
 <script>
-import Nav from '@/components/Nav.vue';
+  import Nav from '@/components/Nav.vue';
 
-export default {
-  name: 'Home',
-  components: {
-    Nav
+  export default {
+    name: 'Home',
+    components: {
+      Nav
+    },
   }
-}
+
 </script>
 
 <style scoped>
-.lien a {
+a {
   color: #198daa;
   text-decoration: none;
   box-shadow: inset 0 -0.45em #ffff;
 }
-
 
 .home-content {
   width: 100%;
@@ -41,13 +45,13 @@ export default {
 
 @keyframes float {
 	0% {
-		transform: translate(0px, 0px);
+		transform: translateX(0px);
 	}
 	50% {
-		transform: translate(-20px, 20px);
+		transform: translateY(-20px);
 	}
 	100% {
-		transform: translate(0px, 0px);
+		transform: translateX(0px);
 	}
 }
 
@@ -55,7 +59,7 @@ export default {
   width: 60%;
   position: relative;
   top: -20%;
-  animation: float 6s steps(12, end) infinite;
+  animation: float 4s steps(12, end) infinite;
 }
 
 @media only screen and (max-width: 2000px) and (min-width: 376px)  {
