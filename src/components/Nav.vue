@@ -1,13 +1,17 @@
 <template>
   <div>
       <nav>
-        <h2>{{ currentStep }}</h2>
-        <div class="links">
-          <router-link to="/">Home</router-link> |
-          <router-link to="/game">Game</router-link> | 
-          <router-link to="/memo">Memo</router-link>
+        <div class="nav-container">
+          <h2>{{ currentStep }}</h2>
+          <div class="links">
+            <router-link to="/"><img src="@/assets/var_icons/nav_home.svg" alt=""></router-link> |
+            <router-link to="/Memo"><img src="@/assets/var_icons/nav_nokie.svg" alt=""></router-link>
+          </div>
+          <div class="music-player">
+              <audio ref="audio" preload="auto" src="@/assets/sound/song.mp3" muted loop></audio>
+              <div @click="toggleSound(file)" class="toggle-sound paused"><img src="@/assets/var_icons/nav_song_off.svg"></div>
+            </div>
         </div>
-        <img src="@/assets/var_icons/nokie_menu_notif.svg" alt="">
       </nav>
     <router-view/>
   </div>
@@ -17,10 +21,55 @@
 export default {
   name: 'Nav.vue',
   props: ['currentStep'],
+    data: () => ({
+    file: "@/assets/sound/song.mp3"
+    }),
+    src:['@/assets/var_icons/nav_nokie.svg','@/assets/var_icons/nav_nokie.svg'],
+    currentSrc: 0,
+    methods: {
+    toggleSound() {
+      let audio = this.$refs.audio;
+      audio.volume = 0.1;
+      if (audio.paused && document.querySelector(".toggle-sound").classList.contains("paused")) {
+        console.log("play it")
+        audio.play();
+        document.querySelector(".toggle-sound").classList.remove("paused");
+      } else {
+        console.log("pause it")
+        audio.pause();
+        document.querySelector(".toggle-sound").classList.add("paused");
+      }
+    },
+    // changeImage(){
+    //     if(this.currentSrc < this.src.length-1){
+    //         this.currentSrc ++
+    // }else{
+    //        this.currentSrc = 0
+    // }
+    // }
+  }
 }
 </script>
 
 <style>
+.music-player {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+nav img {
+  height: 30px;
+  image-rendering: pixelated;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -31,6 +80,17 @@ nav {
   background-color: #FFFFFF;
   position: fixed;
   top: 0px;
+}
+
+.nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.toggle-sound {
+  display: flex;
+  align-items: center;
 }
 
 /* Text styling */
