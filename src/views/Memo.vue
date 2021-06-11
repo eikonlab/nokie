@@ -9,7 +9,7 @@
         <br>
         <div class="content-memo-text">
           <img src="@/assets/var_icons/line.svg" alt="">
-          <p>{{ memo.memo_text }}</p>
+          <p><a href="">{{ memo.memo_text }}</a></p>
           <img v-if="index != Object.keys(memos).length - 1" src="@/assets/var_icons/line.svg" alt="">
         </div>
       </div>
@@ -69,6 +69,18 @@ export default {
   margin-top: 20px;
   font-size: 20px;
   background: #FFFFFF;
+}
+
+a {
+  color: #ffff;
+  text-decoration: none;
+  /* box-shadow: inset 0 -0.25em #198daa; */
+  transition: all 0.6s;
+}
+
+a:hover {
+  /* box-shadow: inset 0 -0.55em #198daa; */
+  color: #198daa;
 }
 
 </style>

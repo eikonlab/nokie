@@ -1,7 +1,7 @@
 <template>
   <div class="card-container" :style="{'background-color':card.bckn_color}">
     <div class="card">
-      <p class="legend">
+      <p>
         {{ card.text }}<br>
       </p>
         <img :src="require(`@/assets/images/${card.image}`)" alt=""/>

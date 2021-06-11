@@ -89,10 +89,58 @@ p {
   text-align: center;
 }
 
+@keyframes vibrate-fast {
+  0%{
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  10%{
+    -webkit-transform: translate(-2px,-2px);
+    transform: translate(-2px,-2px);
+  }
+  20%{
+    -webkit-transform: translate(2px,-2px);
+    transform: translate(2px,-2px);
+  }
+  30%{
+    -webkit-transform: translate(-2px,2px);
+    transform: translate(-2px,2px);
+  }
+  40%{
+    -webkit-transform: translate(2px,2px);
+    transform: translate(2px,2px);
+  }
+  50%{
+    -webkit-transform: translate(-2px,-2px);
+    transform: translate(-2px,-2px);
+  }
+  60%{
+    -webkit-transform: translate(2px,-2px);
+    transform: translate(2px,-2px);
+  }
+  70%{
+    -webkit-transform: translate(-2px,2px);
+    transform: translate(-2px,2px);
+  }
+  80%{
+    -webkit-transform: translate(-2px,-2px);
+    transform: translate(-2px,-2px);
+  }
+  90%{
+    -webkit-transform: translate(2px,-2px);
+    transform: translate(2px,-2px);
+  }
+  100%{
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+
 .trophe {
   width: 60%;
   height: auto;
   image-rendering: pixelated;
+  animation: vibrate-fast 1s ease-out 2 normal forwards;
 }
 
 .button-container {

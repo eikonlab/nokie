@@ -27,9 +27,8 @@
 
 <style scoped>
 a {
-  color: #198daa;
   text-decoration: none;
-  box-shadow: inset 0 -0.45em #ffff;
+  color: black;
 }
 
 .home-content {
