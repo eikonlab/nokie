@@ -22,7 +22,15 @@ export default {
     }
   },
   mounted (){
-    this.getStorage();
+    const activeCardFromparam = this.$route.params.activeCard;
+    console.log('activeCardFromparam',activeCardFromparam)
+    if(activeCardFromparam != undefined){
+      var state = this;
+      state.activeID = activeCardFromparam;
+    }else{
+      console.log('no card in params found, get the storage...', activeCardFromparam)
+      this.getStorage();
+    }
   },
   methods: {
     getStorage () {

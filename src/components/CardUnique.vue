@@ -1,5 +1,6 @@
 <template>
   <div class="card-container" :style="{'background-color':card.bckn_color}">
+    <audio ref="selectsound" preload="auto" src="@/assets/sound/select.ogg" muted></audio>
     <div class="card">
       <p>
         {{ card.text }}<br>
@@ -26,8 +27,14 @@ export default {
   },
   methods: {
     registerClick (nextId){
+      this.playSelect();
       this.$emit('displayCard', nextId);
     },
+    playSelect(){
+      let audio = this.$refs.selectsound;
+      audio.volume = 0.1;
+      audio.play(); 
+    }
   }
 }
 

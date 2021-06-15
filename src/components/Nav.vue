@@ -9,7 +9,7 @@
           </div>
           <div class="music-player">
               <audio ref="audio" preload="auto" src="@/assets/sound/song.mp3" muted loop></audio>
-              <div @click="toggleSound(file)" class="toggle-sound paused"><img src="@/assets/var_icons/nav_song_off.svg"></div>
+              <div @click="toggleSound(file)" class="toggle-sound paused"><img :src="require(`@/assets/var_icons/${soundIcon[playState]}`)"></div>
             </div>
         </div>
       </nav>
@@ -22,7 +22,12 @@ export default {
   name: 'Nav.vue',
   props: ['currentStep'],
     data: () => ({
-    file: "@/assets/sound/song.mp3"
+      file: "@/assets/sound/song.mp3",
+      playState : 'off',
+      soundIcon: {
+        on: 'nav_song_on.svg',
+        off: 'nav_song_off.svg'
+      },
     }),
     src:['@/assets/var_icons/nav_nokie.svg','@/assets/var_icons/nav_nokie.svg'],
     currentSrc: 0,
@@ -33,10 +38,12 @@ export default {
       if (audio.paused && document.querySelector(".toggle-sound").classList.contains("paused")) {
         console.log("play it")
         audio.play();
+        this.playState = 'on';
         document.querySelector(".toggle-sound").classList.remove("paused");
       } else {
         console.log("pause it")
         audio.pause();
+        this.playState = 'off';
         document.querySelector(".toggle-sound").classList.add("paused");
       }
     },

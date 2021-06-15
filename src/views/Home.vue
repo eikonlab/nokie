@@ -4,10 +4,10 @@
     <div class="home-content">
       <img class="logo" src="@/assets/var_icons/carre.svg" alt="">
       <button>
-        <router-link to="/game">Nouvelle Partie</router-link>
+        <router-link :to="{ name: 'Game', params: {activeCard: activeCard }}">Nouvelle Partie</router-link>
       </button>
-      <button>
-        <router-link to="/game">Reprendre le jeu</router-link>
+      <button v-if="activeCardFromStorage">
+        <router-link  :to="{ name: 'Game', params: {activeCard: activeCardFromStorage }}">Reprendre le jeu</router-link>
       </button>
     </div>
   </div>
@@ -21,6 +21,26 @@
     components: {
       Nav
     },
+    data: function(){
+      return {
+        activeCard :0,
+        activeCardFromStorage:null,
+      }
+    },
+    mounted(){
+      console.log('mount home!');
+      this.getStorage();
+    },
+    methods: {
+      getStorage () {
+      let localValue = localStorage.getItem('CardID');
+        if (localValue) {
+          var state = this;
+          state.activeCardFromStorage = localValue;
+          console.log("storage", localValue);
+        }
+    },
+    }
   }
 
 </script>

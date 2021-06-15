@@ -4,7 +4,9 @@
       <p>{{ memos[dialogId].text_dialog }}</p>
       <img  class="trophe" src="@/assets/var_icons/trophe.gif" alt="">
       <div class="button-container">
-        <button>{{ memos[dialogId].btn_step }}</button>
+        <button>
+          <router-link :to="{ name: 'Memo', params: {step: dialogId }}">{{ memos[dialogId].btn_step }}</router-link>
+        </button>
         <button v-on:click="()=>{$emit('hideDialogBox')}">{{ memos[dialogId].btn_dialog }}</button>
       </div>
     </div>
