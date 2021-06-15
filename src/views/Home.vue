@@ -49,6 +49,11 @@
 a {
   text-decoration: none;
   color: black;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .home-content {
@@ -90,13 +95,14 @@ a {
 button {
   outline: none;
   border: none;
-  padding: 10px;
   width: 145px;
   height: 80px;
   font-size: 20px;
   background: #FFFFFF;
   box-shadow: 3px 3px 0 0 rgba(0,0,0,0.50);
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 20px;
   transition: all 0.2s;
 }

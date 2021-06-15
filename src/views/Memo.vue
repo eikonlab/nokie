@@ -74,13 +74,12 @@ export default {
 a {
   color: #ffff;
   text-decoration: none;
-  /* box-shadow: inset 0 -0.25em #198daa; */
-  transition: all 0.6s;
+  box-shadow: inset 0 -0.25em #198daa;
+  transition: all 0.4s;
 }
 
 a:hover {
-  /* box-shadow: inset 0 -0.55em #198daa; */
-  color: #198daa;
+  box-shadow: inset 0 -0.75em #198daa;
 }
 
 </style>

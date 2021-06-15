@@ -134,12 +134,7 @@ button {
   transform: translate(1px,1px);
   }
 }
-/* @keyframes myAnimCardRotate {
-  0% {transform: rotate(0deg);}
-  25% {transform: rotate(-6deg);}
-  75% {transform: rotate(6deg);}
-  100% {transform: rotate(0deg);}
-} */
+
 @keyframes myAnimCard {
 	0% {transform: translateX(0px);}
 	50% {transform: translateY(-10px);}
@@ -147,8 +142,6 @@ button {
 }
 
 img {
-  /* animation: myAnimCardRotate 4s ease-in-out infinite; */
-  /* transform-origin: center bottom; */
   animation: myAnimCard 4s steps(12, end) infinite;
 }
 

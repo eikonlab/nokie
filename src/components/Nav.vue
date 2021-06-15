@@ -46,14 +46,7 @@ export default {
         this.playState = 'off';
         document.querySelector(".toggle-sound").classList.add("paused");
       }
-    },
-    // changeImage(){
-    //     if(this.currentSrc < this.src.length-1){
-    //         this.currentSrc ++
-    // }else{
-    //        this.currentSrc = 0
-    // }
-    // }
+    }
   }
 }
 </script>
