@@ -21,7 +21,7 @@
 import Nav from '@/components/Nav.vue';
 
 export default {
-  name: 'Game',
+  name: 'Memo',
   components: {
     Nav,
   },
