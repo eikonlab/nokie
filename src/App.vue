@@ -25,6 +25,11 @@ body, html {
   height: 100%;
   -webkit-font-smoothing: antialiased;
   animation: bckn 6s ease-in-out infinite;
+  cursor: url('/cursor.png'), auto;
+}
+
+*:hover {
+  cursor: url('/cursor.png'), auto;
 }
 
 .app {
