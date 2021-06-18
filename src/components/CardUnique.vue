@@ -1,6 +1,6 @@
 <template>
   <div class="card-container" :style="{'background-color':card.bckn_color}">
-    <audio ref="selectsound" preload="auto" src="@/assets/sound/select.ogg" muted></audio>
+    <audio ref="selectsound" preload="auto" src="@/assets/sound/select.mp3" muted></audio>
     <div class="card">
       <p>
         {{ card.text }}<br>
