@@ -40,19 +40,19 @@
           defaultDropRate: 15,
           windSpeedMax: 2,
         });
-      window.setTimeout(() => {this.stop();window.setTimeout(()=>{const conf = document.getElementById("confetti-canvas");conf.remove();},4000)},1500)
+        window.setTimeout(() => {this.stop();window.setTimeout(()=>{const conf = document.getElementById("confetti-canvas");conf.remove();},4000)},1500)
       },
       stop() {
         this.$confetti.stop();
       },
-    registerClick (){
-      this.playSelect();
-    },
-    playSelect(){
-      let audio = this.$refs.selectsound;
-      audio.volume = 0.1;
-      audio.play(); 
-    }
+      registerClick (){
+        this.playSelect();
+      },
+      playSelect(){
+        let audio = this.$refs.selectsound;
+        audio.volume = 0.1;
+        audio.play(); 
+      }
     }
   }
 </script>
@@ -86,14 +86,14 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-color:#E0EEFF;
+  background-color:#D5ffcf;
   height: 545px;
   width: 320px;
 }
 
 p {
   margin: 0;
-  font-size: 24px;
+  font-size: 22px;
   width: 290px;
   color: #4D4D4D;
   letter-spacing: 0;
@@ -152,6 +152,7 @@ p {
   height: auto;
   image-rendering: pixelated;
   animation: vibrate-fast 1s ease-out 2 normal forwards;
+  filter: drop-shadow(3px 3px 0px rgba(34, 34, 34, 0.3));
 }
 
 .button-container {
