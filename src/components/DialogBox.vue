@@ -1,5 +1,6 @@
 <template>
   <div class="overlay-dialog">
+    <audio ref="selectsound" preload="auto" src="@/assets/sound/select.mp3" muted></audio>
     <div class="dialog">
       <p>{{ memos[dialogId].text_dialog }}</p>
       <img  class="trophe" src="@/assets/var_icons/trophe.gif" alt="">
@@ -7,7 +8,7 @@
         <button>
           <router-link :to="{ name: 'Memo', params: {step: dialogId }}">{{ memos[dialogId].btn_step }}</router-link>
         </button>
-        <button v-on:click="()=>{$emit('hideDialogBox')}">{{ memos[dialogId].btn_dialog }}</button>
+        <button v-on:click="()=>{$emit('hideDialogBox'); registerClick(); playSelect();}">{{ memos[dialogId].btn_dialog }}</button>
       </div>
     </div>
   </div>
@@ -43,7 +44,15 @@
       },
       stop() {
         this.$confetti.stop();
-      }
+      },
+    registerClick (){
+      this.playSelect();
+    },
+    playSelect(){
+      let audio = this.$refs.selectsound;
+      audio.volume = 0.1;
+      audio.play(); 
+    }
     }
   }
 </script>
