@@ -1,7 +1,520 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="237px" height="180px" viewBox="0 0 237 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>nav_song_off</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <image id="nav_song_off" x="-63" y="-55" width="300" height="300" xlink:href="data:image/png;base64,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9uyctPPiz+E/tza5Nm3axdxVuRvsVuz+45fMX67tidnTvtdvb9M+u311+xn7K5qR5pnNfS2ilq7W9NbOA2MPtLcFtu3/ddSv2w5aHaw9ZHho2WHq4bLDg0dKjvQflR7tPZZz7GH71Pbbxyccv3Ji/ImOkzEnT/8W+dvxU+xTR04HnT54JuDMgbN+Z1vO+ZxrPu99fv/v3r/v7/DpaL7ge6H1ov/Fts4xnYcvhVw6djn88m9XuFfOXY272nkt5dqN65Oud90Q3Hh6M//mi1tFtwZuz79DuFNxV/du1T2ze/X/cvrXri6frkP3w++ff5D04PZD/sNnj+SPPnaXPaY/rnpi+aThqcfTgz2RPRf/mPhH9zPps4He8j/1/qx77vh831+hf53vm9DX/UL2YvDlklcmr7a99nrd3p/Qf+9NwZuBtxXvTN5tf+/3/tSHtA9PBmZ8JH2s/uT0qe1zzOc7gwWDg1KejKfaCmBwoNnZALzcBgA9HQDGRbh/mKg+56kEUZ9NVQj8J6w+C6rEB4AmeFNu1zlHAdgNh/18yB0KgHKrnhwKUE/P4aERebanh5qLBk88hHeDg6/MASC1AfBJNjg4sH5w8NMWmOxNAI5OV58vlUKEZ4MfQ5XoqrFgPvhK/g0eb39mO45siQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAABLKADAAQAAAABAAABLAAAAAD7qKDdAAAJuklEQVR4Ae3cUY4UOwwF0AGxo97/EnpLDAipkJBQEoU4Mc55P61HVzn2MVz1Vz4+/EeAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQ+CXwhQOBaIHX6/UZfcaJ+u/327+fzfBfN5/nOAIECEwLCKxpOi8SILBbQGDtFnceAQLTAgJrms6LBAjsFhBYu8WdR4DAtIDAmqbzIgECuwUE1m5x5xEgMC0gsKbpvEiAwG4BgbVb3HkECEwLCKxpOi8SILBbQGDtFnceAQLTAgJrms6LBAjsFhBYu8WdR4DAtIDAmqbzIgECuwUE1m5x5xEgMC0gsKbpvEiAwG4BgbVb3HkECEwLfJt+04vlBbLdFLrqhs9sc5X/i7RwQL+wFmIqRYBArIDAivVVnQCBhQICayGmUgQIxAoIrFhf1QkQWCggsBZiKkWAQKyAwIr1VZ0AgYUCAmshplIECMQKCKxYX9UJEFgoILAWYipFgECsgMCK9VWdAIGFAgJrIaZSBAjECgisWF/VCRBYKCCwFmIqRYBArIDAivVVnQCBhQICayGmUgQIxAoIrFhf1QkQWCggsBZiKkWAQKyAG0djfY9Uz3aj5qqbQo9gOjSVgF9YqdahGQIEWgICq6XjOwIEUgkIrFTr0AwBAi0BgdXS8R0BAqkEBFaqdWiGAIGWgMBq6fiOAIFUAgIr1To0Q4BAS0BgtXR8R4BAKgGBlWodmiFAoCUgsFo6viNAIJWAwEq1Ds0QINASEFgtHd8RIJBKQGClWodmCBBoCQislo7vCBBIJSCwUq1DMwQItAQEVkvHdwQIpBIQWKnWoRkCBFoCV984mu1mztaiTnznptAT6s78i8CX58/8wnokfBIgkF5AYKVfkQYJEHgEBNYj4ZMAgfQCAiv9ijRIgMAjILAeCZ8ECKQXEFjpV6RBAgQeAYH1SPgkQCC9gMBKvyINEiDwCAisR8InAQLpBQRW+hVpkACBR0BgPRI+CRBILyCw0q9IgwQIPAIC65HwSYBAegGBlX5FGiRA4BEQWI+ETwIE0gsIrPQr0iABAo+AwHokfBIgkF7g6htHV23n582cq4L/c1VP6vxXAr9v1PzHrqv+/fk916p/aP/o7HUCBAj0BQRW38gTBAgkERBYSRahDQIE+gICq2/kCQIEkggIrCSL0AYBAn0BgdU38gQBAkkEBFaSRWiDAIG+gMDqG3mCAIEkAgIrySK0QYBAX0Bg9Y08QYBAEgGBlWQR2iBAoC8gsPpGniBAIImAwEqyCG0QINAXEFh9I08QIJBEQGAlWYQ2CBDoCwisvpEnCBBIIiCwkixCGwQI9AXcONo38gSBaAE3jg4K+4U1COUxAgTOCwis8zvQAQECgwICaxDKYwQInBcQWOd3oAMCBAYFBNYglMcIEDgvILDO70AHBAgMCgisQSiPESBwXkBgnd+BDggQGBQQWINQHiNA4LyAwDq/Ax0QIDAoILAGoTxGgMB5AYF1fgc6IEBgUEBgDUJ5jACB8wIC6/wOdECAwKCAwBqE8hgBAucFBNb5HeiAAIFBAYE1COUxAgTOC7hxdMEOXq/X9wVl0pV4v9+rbsJMN1uyhkr+/Ykw9gsrQlVNAgRCBARWCKuiBAhECAisCFU1CRAIERBYIayKEiAQISCwIlTVJEAgREBghbAqSoBAhIDAilBVkwCBEAGBFcKqKAECEQICK0JVTQIEQgQEVgirogQIRAgIrAhVNQkQCBEQWCGsihIgECEgsCJU1SRAIERAYIWwKkqAQISAwIpQVZMAgRABgRXCqigBAhECAitCVU0CBEIE3CgZwnq26M8bUD/PdvDn6dluLl3lk22uP9Vr/p9fWDX3aioCJQUEVsm1GopATQGBVXOvpiJQUkBglVyroQjUFBBYNfdqKgIlBQRWybUaikBNAYFVc6+mIlBSQGCVXKuhCNQUEFg192oqAiUFBFbJtRqKQE0BgVVzr6YiUFJAYJVcq6EI1BQQWDX3aioCJQUEVsm1GopATQGBVXOvpiJQUkBglVyroQjUFBBYNfdqKgIlBdw4WnKta4ZadTPnmm4+Plbd8LlqrlX9rPK5oY5fWDds2YwEiggIrCKLNAaBGwQE1g1bNiOBIgICq8gijUHgBgGBdcOWzUigiIDAKrJIYxC4QUBg3bBlMxIoIiCwiizSGARuEBBYN2zZjASKCAisIos0BoEbBATWDVs2I4EiAgKryCKNQeAGAYF1w5bNSKCIgMAqskhjELhBQGDdsGUzEigiILCKLNIYBG4QEFg3bNmMBIoIuHG0yCIzj7Hqhs9sM7pxdP9G/MLab+5EAgQmBQTWJJzXCBDYLyCw9ps7kQCBSQGBNQnnNQIE9gsIrP3mTiRAYFJAYE3CeY0Agf0CAmu/uRMJEJgUEFiTcF4jQGC/gMDab+5EAgQmBQTWJJzXCBDYLyCw9ps7kQCBSQGBNQnnNQIE9gsIrP3mTiRAYFJAYE3CeY0Agf0CAmu/uRMJEJgUEFiTcF4jQGC/gMDab+5EAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgACBSgI/ADINMm6YYlw9AAAAAElFTkSuQmCC"></image>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#D8D8D8;}
+</style>
+<g id="Calque_1" class="st0">
+	<rect y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="3.6" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="7.1" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="10.7" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="14.2" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="7.1" y="24.9" class="st1" width="3.6" height="3.6"/>
+	<rect x="10.7" y="24.9" class="st1" width="3.6" height="3.6"/>
+	<rect x="10.7" y="21.3" class="st1" width="3.6" height="3.6"/>
+	<rect x="7.1" y="21.3" class="st1" width="3.6" height="3.6"/>
+	<rect x="17.8" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="21.3" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="24.9" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="28.4" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="14.2" y="0" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="0" y="14.2" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 17.7778 14.2222)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="0" y="10.7" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 14.2222 10.6667)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="0" y="17.8" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 21.3333 17.7778)" class="st1" width="3.6" height="3.6"/>
+	<rect y="21.3" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 24.8889 21.3333)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="0" y="24.9" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 28.4444 24.8889)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="17.8" y="3.6" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 24.8889 -14.2222)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="10.7" y="3.6" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 17.7778 -7.1111)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="7.1" y="7.1" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 17.7778 1.776357e-15)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="3.6" y="10.7" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 17.7778 7.1111)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="10.7" y="0" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 14.2222 -10.6667)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="7.1" y="3.6" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 14.2222 -3.5556)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="3.6" y="7.1" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 14.2222 3.5556)" class="st1" width="3.6" height="3.6"/>
+	<rect x="21.3" y="7.1" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 32 -14.2222)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="24.9" y="10.7" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 39.1111 -14.2222)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="14.2" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 46.2222 -14.2222)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="17.8" y="0" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 21.3333 -17.7778)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="21.3" y="3.6" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 28.4444 -17.7778)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="24.9" y="7.1" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 35.5556 -17.7778)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="10.7" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 42.6667 -17.7778)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="17.8" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 49.7778 -10.6667)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="21.3" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 53.3333 -7.1111)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="24.9" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 56.8889 -3.5556)" class="st1" width="3.6" height="3.6"/>
+</g>
+<g id="Calque_6" class="st0">
+	<rect y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="3.6" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="7.1" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="10.7" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="14.2" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="17.8" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="21.3" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="24.9" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="28.4" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect y="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="3.6" y="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="7.1" y="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect y="21.3" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 24.8889 21.3333)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="0" y="24.9" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 28.4444 24.8889)" class="st1" width="3.6" height="3.6"/>
+	<rect y="14.2" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 17.7778 14.2222)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="0" y="10.7" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 14.2222 10.6667)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="0" y="17.8" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 21.3333 17.7778)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="7.1" y="17.8" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 28.4444 10.6667)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="7.1" y="14.2" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 24.8889 7.1111)" class="st1" width="3.6" height="3.6"/>
+	<rect x="7.1" y="21.3" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 32 14.2222)" class="st1" width="3.6" height="3.6"/>
+	<rect x="10.7" y="17.8" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 32 7.1111)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="21.3" y="14.2" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 39.1111 -7.1111)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="21.3" y="21.3" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 46.2222 1.000799e-11)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="3.6" y="17.8" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 24.8889 14.2222)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="14.2" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 46.2222 -14.2222)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="10.7" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 42.6667 -17.7778)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="17.8" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 49.7778 -10.6667)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="21.3" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 53.3333 -7.1111)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="24.9" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 56.8889 -3.5556)" class="st1" width="3.6" height="3.6"/>
+	<rect x="10.7" y="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="14.2" y="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="14.2" class="st1" width="3.6" height="3.6"/>
+	<rect x="14.2" y="3.6" class="st1" width="3.6" height="3.6"/>
+	<rect x="17.8" y="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="21.3" y="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="24.9" y="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="28.4" y="7.1" class="st1" width="3.6" height="3.6"/>
+</g>
+<g id="Calque_7" class="st0">
+	
+		<rect x="28.4" y="21.3" transform="matrix(6.123234e-17 -1 1 6.123234e-17 7.1077 53.3222)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="17.8" transform="matrix(6.123234e-17 -1 1 6.123234e-17 10.6633 49.7666)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="14.2" transform="matrix(6.123234e-17 -1 1 6.123234e-17 14.2188 46.2111)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="10.7" transform="matrix(6.123234e-17 -1 1 6.123234e-17 17.7744 42.6555)" class="st1" width="3.6" height="3.6"/>
+	<rect x="28.4" y="7.1" transform="matrix(6.123234e-17 -1 1 6.123234e-17 21.33 39.1)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="24.9" y="21.3" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 53.3188 46.2145)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="21.3" y="21.3" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 46.2077 46.2145)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="17.8" y="21.3" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 39.0966 46.2145)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="17.8" y="24.9" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 39.1398 53.3256)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="17.8" y="28.4" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 39.1398 60.4367)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="14.2" y="28.4" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 32.0287 60.4367)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="10.7" y="24.9" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 24.9176 53.3256)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="7.1" y="21.3" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 17.8065 46.2145)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="3.6" y="17.8" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 10.6657 39.1169)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="3.6" y="10.7" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 10.6657 24.8811)" class="st1" width="3.6" height="3.6"/>
+	<rect x="0" y="14.2" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 3.5478 32.0057)" class="st1" width="3.6" height="3.6"/>
+	<rect x="0" y="17.8" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 3.5545 39.1169)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="3.6" y="21.3" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 10.6954 46.2246)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="7.1" y="24.9" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 17.8065 53.3256)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="10.7" y="28.4" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 24.9176 60.4367)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="10.7" y="3.6" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 24.8879 10.6589)" class="st1" width="3.6" height="3.6"/>
+	<rect x="7.1" y="7.1" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 17.7768 17.77)" class="st1" width="3.6" height="3.6"/>
+	<rect x="17.8" y="0" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 39.0966 3.5478)" class="st1" width="3.6" height="3.6"/>
+	<rect x="14.2" y="0" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 31.9855 3.5478)" class="st1" width="3.6" height="3.6"/>
+	<rect x="0" y="10.7" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 3.5545 24.8946)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="7.1" y="3.6" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 17.7768 10.6589)" class="st1" width="3.6" height="3.6"/>
+	<rect x="3.6" y="7.1" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 10.6657 17.77)" class="st1" width="3.6" height="3.6"/>
+	<rect x="10.7" y="0" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 24.8879 3.5478)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="17.8" y="3.6" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 39.0966 10.6589)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="24.9" y="7.1" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 53.3188 17.77)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="21.3" y="7.1" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 46.2077 17.77)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="17.8" y="7.1" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 39.0966 17.77)" class="st1" width="3.6" height="3.6"/>
+</g>
+<g id="Calque_10" class="st0">
+	
+		<rect x="17.8" y="17.8" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 39.126 39.1179)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="21.3" y="17.8" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 46.2371 39.1304)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="17.8" y="21.3" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 39.1044 46.2155)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="17.8" y="24.9" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 39.1476 53.3266)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="17.8" y="28.4" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 39.1476 60.4512)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="10.7" y="24.9" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 24.947 53.3401)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="10.7" y="21.3" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 24.8821 46.229)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="7.1" y="21.3" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 17.8359 46.229)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="7.1" y="17.8" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 17.7926 39.1179)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="3.6" y="17.8" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 10.7248 39.1179)" class="st1" width="3.6" height="3.6"/>
+	<rect x="0" y="14.2" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 3.5839 32.0203)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="14.3" y="28.4" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 32.0581 60.4512)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="14.3" y="24.9" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 32.0581 53.3266)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="7.1" y="7.1" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 17.8426 17.771)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="7.1" y="10.7" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 17.8426 24.9081)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="3.6" y="10.7" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 10.7315 24.8821)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="3.6" y="14.2" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 10.7315 32.0203)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="10.7" y="3.6" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 24.9402 10.6599)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="10.7" y="7.1" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 24.9402 17.7845)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="10.7" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 60.4161 24.9081)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="24.9" y="10.7" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 53.3266 24.9081)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="14.2" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 60.4161 32.0193)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="17.8" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 60.4161 39.1304)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="24.9" y="17.8" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 53.3266 39.1304)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="17.8" y="10.7" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 39.126 24.8821)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="17.8" y="7.1" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 39.1476 17.7845)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="17.8" y="3.6" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 39.1476 10.6599)" class="st1" width="3.6" height="3.6"/>
+	<rect x="17.8" y="0" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 39.1476 3.5488)" class="st1" width="3.6" height="3.6"/>
+	<rect x="14.3" y="0" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 32.0581 3.5488)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="14.3" y="3.6" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 32.0581 10.6599)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="21.3" y="10.7" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 46.2371 24.8821)" class="st1" width="3.6" height="3.6"/>
+</g>
+<g id="Calque_8" class="st0">
+	<rect y="3.6" class="st1" width="3.6" height="3.6"/>
+	<rect y="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect y="10.7" class="st1" width="3.6" height="3.6"/>
+	<rect y="14.2" class="st1" width="3.6" height="3.6"/>
+	<rect x="3.6" class="st1" width="3.6" height="3.6"/>
+	<rect x="7.1" y="3.6" class="st1" width="3.6" height="3.6"/>
+	<rect x="10.7" y="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="14.2" y="10.7" class="st1" width="3.6" height="3.6"/>
+	<rect x="17.8" y="14.2" class="st1" width="3.6" height="3.6"/>
+	<rect x="21.3" y="17.8" class="st1" width="3.6" height="3.6"/>
+	<rect x="24.9" y="21.3" class="st1" width="3.6" height="3.6"/>
+	<rect x="28.4" y="24.9" class="st1" width="3.6" height="3.6"/>
+	<rect x="24.9" y="24.9" class="st1" width="3.6" height="3.6"/>
+	<rect x="21.3" y="24.9" class="st1" width="3.6" height="3.6"/>
+	<rect x="17.8" y="24.9" class="st1" width="3.6" height="3.6"/>
+	<rect x="17.8" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="21.3" y="32" class="st1" width="3.6" height="3.6"/>
+	<rect x="21.3" y="35.6" class="st1" width="3.6" height="3.6"/>
+	<rect y="17.8" class="st1" width="3.6" height="3.6"/>
+	<rect y="21.3" class="st1" width="3.6" height="3.6"/>
+	<rect y="24.9" class="st1" width="3.6" height="3.6"/>
+	<rect y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect y="32" class="st1" width="3.6" height="3.6"/>
+	<rect y="35.6" class="st1" width="3.6" height="3.6"/>
+	<rect x="3.6" y="35.6" class="st1" width="3.6" height="3.6"/>
+	<rect x="7.1" y="32" class="st1" width="3.6" height="3.6"/>
+	<rect x="10.7" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="10.7" y="32" class="st1" width="3.6" height="3.6"/>
+	<rect x="14.2" y="35.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="14.2" y="38.9" class="st1" width="3.6" height="3.6"/>
+	<rect x="17.8" y="38.9" class="st1" width="3.6" height="3.6"/>
+	<rect y="39.1" class="st1" width="3.6" height="3.6"/>
+</g>
+<g id="Calque_8_-_copie" class="st0">
+	<rect y="3.6" class="st1" width="3.6" height="3.6"/>
+	<rect y="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect y="10.7" class="st1" width="3.6" height="3.6"/>
+	<rect y="14.2" class="st1" width="3.6" height="3.6"/>
+	<rect x="3.6" class="st1" width="3.6" height="3.6"/>
+	<rect x="7.1" y="3.6" class="st1" width="3.6" height="3.6"/>
+	<rect x="10.7" y="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="14.2" y="10.7" class="st1" width="3.6" height="3.6"/>
+	<rect x="17.8" y="14.2" class="st1" width="3.6" height="3.6"/>
+	<rect x="21.3" y="17.8" class="st1" width="3.6" height="3.6"/>
+	<rect x="24.9" y="21.3" class="st1" width="3.6" height="3.6"/>
+	<rect x="28.4" y="24.9" class="st1" width="3.6" height="3.6"/>
+	<rect x="32" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="35.6" y="32" class="st1" width="3.6" height="3.6"/>
+	<rect x="32" y="32" class="st1" width="3.6" height="3.6"/>
+	<rect x="28.4" y="32" class="st1" width="3.6" height="3.6"/>
+	<rect x="24.9" y="32" class="st1" width="3.6" height="3.6"/>
+	<rect y="17.8" class="st1" width="3.6" height="3.6"/>
+	<rect y="21.3" class="st1" width="3.6" height="3.6"/>
+	<rect y="24.9" class="st1" width="3.6" height="3.6"/>
+	<rect y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect y="32" class="st1" width="3.6" height="3.6"/>
+	<rect y="35.6" class="st1" width="3.6" height="3.6"/>
+	<rect y="39.1" class="st1" width="3.6" height="3.6"/>
+	<rect y="42.7" class="st1" width="3.6" height="3.6"/>
+	<rect x="3.6" y="39.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="7.1" y="35.6" class="st1" width="3.6" height="3.6"/>
+	<rect x="10.7" y="32" class="st1" width="3.6" height="3.6"/>
+	<rect x="10.7" y="35.6" class="st1" width="3.6" height="3.6"/>
+	<rect x="21.3" y="32" class="st1" width="3.6" height="3.6"/>
+	<rect x="17.8" y="32" class="st1" width="3.6" height="3.6"/>
+	<rect x="14.2" y="39.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="14.2" y="42.7" class="st1" width="3.6" height="3.6"/>
+	<rect x="21.3" y="35.6" class="st1" width="3.6" height="3.6"/>
+	<rect x="21.3" y="39.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="17.8" y="46.2" class="st1" width="3.6" height="3.6"/>
+	<rect x="21.3" y="42.7" class="st1" width="3.6" height="3.6"/>
+</g>
+<g id="Calque_2">
+</g>
+<g id="Calque_3" class="st0">
+	
+		<rect x="21.3" y="14.2" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 39.1111 -7.1111)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="21.3" y="17.8" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 42.6667 -3.5556)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="21.3" y="10.7" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 35.5556 -10.6667)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="14.2" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 46.2222 -14.2222)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="17.8" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 49.7778 -10.6667)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="21.3" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 53.3333 -7.1111)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="10.7" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 42.6667 -17.7778)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="7.1" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 39.1111 -21.3333)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="3.6" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 35.5556 -24.8889)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="24.9" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 56.8889 -3.5556)" class="st1" width="3.6" height="3.6"/>
+</g>
+<g id="Calque_9">
+	<g>
+		<polygon points="3.6,21.3 3.6,17.8 3.6,14.2 3.6,10.7 7.1,10.7 7.1,7.1 3.6,7.1 0,7.1 0,10.7 0,14.2 0,17.8 0,21.3 0,24.9 
+			3.6,24.9 7.1,24.9 7.1,21.3 		"/>
+		<polygon points="10.7,0 10.7,3.6 14.2,3.6 14.2,7.1 14.2,10.7 14.2,14.2 14.2,17.8 14.2,21.3 14.2,24.9 14.2,28.4 10.7,28.4 
+			10.7,32 14.2,32 17.8,32 17.8,28.4 17.8,24.9 17.8,21.3 17.8,17.8 17.8,14.2 17.8,10.7 17.8,7.1 17.8,3.6 17.8,0 14.2,0 		"/>
+		<rect x="7.1" y="3.6" width="3.6" height="3.6"/>
+		<rect x="7.1" y="24.9" width="3.6" height="3.6"/>
+		<rect x="21.3" y="10.7" width="3.6" height="3.6"/>
+		<rect x="24.9" y="14.2" width="3.6" height="3.6"/>
+		<rect x="28.4" y="17.8" width="3.6" height="3.6"/>
+		<rect x="21.3" y="17.8" width="3.6" height="3.6"/>
+		<rect x="28.4" y="10.7" width="3.6" height="3.6"/>
+	</g>
+</g>
+<g id="Calque_4" class="st0">
+	<rect y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="3.6" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="7.1" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="10.7" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="14.2" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="17.8" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="21.3" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="24.9" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="28.4" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect class="st1" width="3.6" height="3.6"/>
+	<rect x="3.6" class="st1" width="3.6" height="3.6"/>
+	<rect x="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="10.7" class="st1" width="3.6" height="3.6"/>
+	<rect x="14.2" class="st1" width="3.6" height="3.6"/>
+	<rect x="17.8" class="st1" width="3.6" height="3.6"/>
+	<rect x="7.1" y="14.2" class="st1" width="3.6" height="3.6"/>
+	<rect x="10.7" y="14.2" class="st1" width="3.6" height="3.6"/>
+	<rect x="14.2" y="14.2" class="st1" width="3.6" height="3.6"/>
+	<rect x="7.1" y="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="10.7" y="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="14.2" y="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="17.8" y="14.2" class="st1" width="3.6" height="3.6"/>
+	<rect x="21.3" y="14.2" class="st1" width="3.6" height="3.6"/>
+	<rect x="21.3" class="st1" width="3.6" height="3.6"/>
+	<rect x="24.9" class="st1" width="3.6" height="3.6"/>
+	<rect x="28.4" y="0" class="st1" width="3.6" height="3.6"/>
+	<rect x="28.4" y="3.6" class="st1" width="3.6" height="3.6"/>
+	<rect x="0" y="3.6" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 7.1111 3.5556)" class="st1" width="3.6" height="3.6"/>
+	<rect x="0" y="7.1" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 10.6667 7.1111)" class="st1" width="3.6" height="3.6"/>
+	<rect y="10.7" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 14.2222 10.6667)" class="st1" width="3.6" height="3.6"/>
+	<rect x="0" y="14.2" transform="matrix(2.556117e-13 1 -1 2.556117e-13 17.7778 14.2222)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="0" y="17.8" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 21.3333 17.7778)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="0" y="21.3" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 24.8889 21.3333)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="0" y="24.9" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 28.4444 24.8889)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="7.1" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 39.1111 -21.3333)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="10.7" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 42.6667 -17.7778)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="14.2" transform="matrix(5.114071e-13 1 -1 5.114071e-13 46.2222 -14.2222)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="17.8" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 49.7778 -10.6667)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="21.3" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 53.3333 -7.1111)" class="st1" width="3.6" height="3.6"/>
+	
+		<rect x="28.4" y="24.9" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 56.8889 -3.5556)" class="st1" width="3.6" height="3.6"/>
+</g>
+<g id="Calque_5" class="st0">
+	<rect y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect y="24.9" class="st1" width="3.6" height="3.6"/>
+	<rect x="0" y="21.3" class="st1" width="3.6" height="3.6"/>
+	<rect x="0" y="17.8" class="st1" width="3.6" height="3.6"/>
+	<rect y="14.2" class="st1" width="3.6" height="3.6"/>
+	<rect x="0" y="10.7" class="st1" width="3.6" height="3.6"/>
+	<rect x="28.4" y="24.9" class="st1" width="3.6" height="3.6"/>
+	<rect x="28.4" y="21.3" class="st1" width="3.6" height="3.6"/>
+	<rect x="28.4" y="17.8" class="st1" width="3.6" height="3.6"/>
+	<rect x="21.3" y="17.8" class="st1" width="3.6" height="3.6"/>
+	<rect x="7.1" y="17.8" class="st1" width="3.6" height="3.6"/>
+	<rect x="28.4" y="14.2" class="st1" width="3.6" height="3.6"/>
+	<rect x="28.4" y="10.7" class="st1" width="3.6" height="3.6"/>
+	<rect x="3.6" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="7.1" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="10.7" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="14.2" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="17.8" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="21.3" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="24.9" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect x="28.4" y="28.4" class="st1" width="3.6" height="3.6"/>
+	<rect y="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="3.6" y="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="7.1" y="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="10.7" y="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="14.2" y="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="3.6" y="3.6" class="st1" width="3.6" height="3.6"/>
+	<rect x="3.6" class="st1" width="3.6" height="3.6"/>
+	<rect x="17.8" y="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="21.3" y="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="24.9" y="7.1" class="st1" width="3.6" height="3.6"/>
+	<rect x="28.4" y="7.1" class="st1" width="3.6" height="3.6"/>
+</g>
+<g id="Calque_15" class="st0">
+</g>
+<g id="Calque_14" class="st0">
+</g>
+<g id="Calque_13" class="st0">
+	<g class="st1">
+		<polygon class="st2" points="1,3.2 1.2,6.6 7.2,12.7 7,20.3 12,24.8 17.8,25.3 21.3,30.2 23.4,28.7 32,20 27,15 27.2,9 25,7.2 
+			25,4.5 22.8,3.2 21.3,1 17,1 15,3 9,5 7,3 5,1 2.6,1.4 		"/>
+		<rect x="2" y="6" class="st3" width="2" height="2"/>
+		<rect x="6" y="14" class="st3" width="2" height="2"/>
+		<rect x="4" y="8" class="st3" width="2" height="2"/>
+		<rect x="6" y="10" class="st3" width="2" height="2"/>
+		<rect x="8" y="12" class="st3" width="2" height="2"/>
+		<rect x="6" y="16" class="st3" width="2" height="2"/>
+		<rect x="6" y="18" class="st3" width="2" height="2"/>
+		<rect x="8" y="20" class="st3" width="2" height="2"/>
+		<rect x="10" y="22" class="st3" width="2" height="2"/>
+		<rect x="12" y="22" class="st3" width="2" height="2"/>
+		<rect x="14" y="22" class="st3" width="2" height="2"/>
+		<rect x="16" y="22" class="st3" width="2" height="2"/>
+		<rect x="18" y="26" class="st3" width="2" height="2"/>
+		<rect x="18" y="28" class="st3" width="2" height="2"/>
+		<rect x="20" y="28" class="st3" width="2" height="2"/>
+		<rect x="2" width="2" height="2"/>
+		<rect x="4" width="2" height="2"/>
+		<rect x="6" y="2" width="2" height="2"/>
+		<rect x="8" y="4" width="2" height="2"/>
+		<rect x="10" y="4" width="2" height="2"/>
+		<rect x="12" y="6" width="2" height="2"/>
+		<rect x="16" y="4" width="2" height="2"/>
+		<rect x="20" y="9" width="2" height="2"/>
+		<rect x="22" y="11" width="2" height="2"/>
+		<rect x="16" y="11" width="2" height="2"/>
+		<rect x="18" y="13" width="2" height="2"/>
+		<rect x="12" y="2" width="2" height="2"/>
+		<rect x="14" y="2" width="2" height="2"/>
+		<rect x="16" y="0" width="2" height="2"/>
+		<rect x="18" y="0" width="2" height="2"/>
+		<rect x="20" y="0" width="2" height="2"/>
+		<rect x="22" y="2" width="2" height="2"/>
+		<rect x="24" y="4" width="2" height="2"/>
+		<rect x="24" y="6" width="2" height="2"/>
+		<rect x="26" y="8" width="2" height="2"/>
+		<rect x="26" y="10" width="2" height="2"/>
+		<rect x="26" y="12" width="2" height="2"/>
+		<rect x="26" y="14" width="2" height="2"/>
+		<rect x="24" y="16" width="2" height="2"/>
+		<rect x="28" y="16" width="2" height="2"/>
+		<rect x="30" y="18" width="2" height="2"/>
+		<rect x="30" y="20" width="2" height="2"/>
+		<rect x="28" y="22" width="2" height="2"/>
+		<rect x="26" y="24" width="2" height="2"/>
+		<rect x="24" y="26" width="2" height="2"/>
+		<rect x="22" y="28" width="2" height="2"/>
+		<rect x="20" y="30" width="2" height="2"/>
+		<rect x="18" y="30" width="2" height="2"/>
+		<rect x="16" y="28" width="2" height="2"/>
+		<rect x="16" y="26" width="2" height="2"/>
+		<rect x="16" y="24" width="2" height="2"/>
+		<rect x="16" y="24" width="2" height="2"/>
+		<rect x="18" y="24" width="2" height="2"/>
+		<rect x="20" y="22" width="2" height="2"/>
+		<rect x="14" y="24" width="2" height="2"/>
+		<rect x="12" y="24" width="2" height="2"/>
+		<rect x="10" y="24" width="2" height="2"/>
+		<rect x="8" y="22" width="2" height="2"/>
+		<rect x="6" y="20" width="2" height="2"/>
+		<rect x="4" y="18" width="2" height="2"/>
+		<rect x="4" y="16" width="2" height="2"/>
+		<rect x="4" y="14" width="2" height="2"/>
+		<rect x="6" y="12" width="2" height="2"/>
+		<rect x="8" y="14" width="2" height="2"/>
+		<rect x="4" y="12" width="2" height="2"/>
+		<rect x="4" y="10" width="2" height="2"/>
+		<rect x="2" y="8" width="2" height="2"/>
+		<rect x="0" y="6" width="2" height="2"/>
+		<rect x="0" y="4" width="2" height="2"/>
+		<rect x="0" y="2" width="2" height="2"/>
+	</g>
+</g>
+<g id="Calque_12" class="st0">
+	<image style="display:inline;overflow:visible;" width="32" height="32" xlink:href="../cursor.png" >
+	</image>
+</g>
 </svg>
