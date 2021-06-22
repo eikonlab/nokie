@@ -8,7 +8,7 @@
         <button>
           <router-link :to="{ name: 'Memo', params: {step: dialogId }}">{{ memos[dialogId].btn_step }}</router-link>
         </button>
-        <button v-on:click="()=>{$emit('hideDialogBox'); registerClick();}">{{ memos[dialogId].btn_dialog }}</button>
+        <button v-on:click="()=>{registerClick();}">{{ memos[dialogId].btn_dialog }}</button>
       </div>
     </div>
   </div>
@@ -47,11 +47,11 @@
       },
       registerClick (){
         this.playSelect();
+        window.setTimeout(() => {this.$emit('hideDialogBox')},500);
       },
       playSelect(){
-        console.log('tets');
         let audio = this.$refs.selectsound2;
-        console.log(audio);
+        audio.volume = 0.1;
         audio.play(); 
       }
     }

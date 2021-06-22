@@ -100,8 +100,8 @@ figcaption {
 
 img {
   border: none;
-  width: 100%;
-  height: 100%;
+  width: 315px;
+  height: 315px;
   image-rendering: pixelated;
   object-fit: contain;
 }
