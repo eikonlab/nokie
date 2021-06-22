@@ -2,9 +2,10 @@
   <div>
       <nav>
         <div class="nav-container">
+          <router-link to="/About"><img src="@/assets/var_icons/logo.png" alt=""></router-link> |
           <h2>{{ currentStep }}</h2>
-          <div v-if="$route.name == 'Memo'">
-            <router-link to="/Game"><img src="@/assets/var_icons/back.svg" alt=""></router-link> 
+          <div v-if="$route.name == 'Memo' || $route.name == 'About' ">
+            <a href="javascript:history.go(-1)"><img src="@/assets/var_icons/back.svg" alt=""></a>
           </div>
           <div class="links">
             <router-link to="/"><img src="@/assets/var_icons/nav_home.svg" alt=""></router-link> |

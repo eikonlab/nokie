@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Memo from '../views/Memo.vue'
+import About from '../views/About.vue'
 
 Vue.use(VueRouter)
 
@@ -20,7 +21,12 @@ const routes = [
     path: '/memo',
     name: 'Memo',
     component: Memo
+  },  {
+    path: '/about',
+    name: 'About',
+    component: About
   }
+
 ]
 
 const router = new VueRouter({
