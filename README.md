@@ -8,9 +8,7 @@ Le projet a été déveloopé avec le framework javascript [vue.js](https://vuej
 
 ## Project setup (setup du projet)
 
-Ouvrir le terminal
-Se déplacer dans le dossier 'nokie',
-Puis taper:
+Ouvrir le terminal, se déplacer dans le dossier 'nokie', puis taper:
 
 ```
 yarn install
