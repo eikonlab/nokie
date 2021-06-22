@@ -6,7 +6,7 @@ Les encadrants du projet sont [Martial Mingam](mailto:mingamm@eikon.ch), [Julien
 
 Le projet a été déveloopé avec le framework javascript [vue.js](https://vuejs.org/).
 
-## Project setup
+## Project setup (setup du projet)
 
 Ouvrir le terminal
 Se déplacer dans le dossier 'nokie',
@@ -16,13 +16,17 @@ Puis taper:
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles and hot-reloads for development (mis ene place du serveur de développement)
+
+Dans le termnial, taper
 
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+### Compiles and minifies for production (builder pour la production)
+
+Dans le terminal, taper
 
 ```
 yarn build
