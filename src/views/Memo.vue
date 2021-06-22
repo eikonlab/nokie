@@ -63,6 +63,7 @@ export default {
 
 p {
   width: 250px;
+  word-wrap: break-word;
 }
 
 .link {
@@ -85,7 +86,6 @@ p {
   background-repeat: no-repeat;
   width: 20px;
   height: 20px;
-  z-index: 10;
   display: inline-block;
   background-size: contain;
   position: relative;
