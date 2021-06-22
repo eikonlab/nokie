@@ -641,28 +641,44 @@
 		<polygon class="st7" points="18.7,24 18.7,26.7 18.7,29.3 21.3,29.3 21.3,26.7 21.3,24 		"/>
 	</g>
 </g>
-<g id="Calque_19" class="st0">
-	<rect x="29.3" class="st1" width="2.7" height="2.7"/>
-	<rect x="26.7" y="2.7" class="st1" width="2.7" height="2.7"/>
-	<rect x="24" y="5.3" class="st1" width="2.7" height="2.7"/>
-	<rect x="21.3" y="8" class="st1" width="2.7" height="2.7"/>
-	<rect x="18.7" y="10.7" class="st1" width="2.7" height="2.7"/>
-	<rect x="16" y="13.3" class="st1" width="2.7" height="2.7"/>
-	<rect x="13.3" y="16" class="st1" width="2.7" height="2.7"/>
-	<rect x="10.7" y="18.7" class="st1" width="2.7" height="2.7"/>
-	<rect x="8" y="21.3" class="st1" width="2.7" height="2.7"/>
-	<rect x="5.3" y="24" class="st1" width="2.7" height="2.7"/>
-	<rect x="29.3" y="2.7" class="st1" width="2.7" height="2.7"/>
-	<rect x="29.3" y="5.3" class="st1" width="2.7" height="2.7"/>
-	<rect x="29.3" y="8" class="st1" width="2.7" height="2.7"/>
-	<rect x="29.3" y="10.7" class="st1" width="2.7" height="2.7"/>
-	<rect x="29.3" y="13.3" class="st1" width="2.7" height="2.7"/>
-	<rect x="29.3" y="24" class="st1" width="2.7" height="2.7"/>
-	<rect x="29.3" y="26.7" class="st1" width="2.7" height="2.7"/>
-	<rect x="29.3" y="29.3" class="st1" width="2.7" height="2.7"/>
+<g id="Calque_19">
+	<g>
+		<polygon points="29.3,0 26.7,0 24,0 21.3,0 18.7,0 16,0 16,2.7 18.7,2.7 21.3,2.7 24,2.7 26.7,2.7 26.7,5.3 29.3,5.3 29.3,8 
+			29.3,10.7 29.3,13.3 29.3,16 32,16 32,13.3 32,10.7 32,8 32,5.3 32,2.7 32,0 		"/>
+		<rect x="24" y="5.3" width="2.7" height="2.7"/>
+		<rect x="21.3" y="8" width="2.7" height="2.7"/>
+		<rect x="18.7" y="10.7" width="2.7" height="2.7"/>
+		<rect x="16" y="13.3" width="2.7" height="2.7"/>
+		<rect x="13.3" y="16" width="2.7" height="2.7"/>
+		<rect x="10.7" y="18.7" width="2.7" height="2.7"/>
+		<rect x="8" y="21.3" width="2.7" height="2.7"/>
+		<rect x="5.3" y="24" width="2.7" height="2.7"/>
+		<polygon points="29.3,26.7 29.3,29.3 26.7,29.3 24,29.3 21.3,29.3 18.7,29.3 16,29.3 13.3,29.3 10.7,29.3 8,29.3 5.3,29.3 
+			2.7,29.3 2.7,26.7 2.7,24 2.7,21.3 2.7,18.7 2.7,16 2.7,13.3 2.7,10.7 2.7,8 2.7,5.3 2.7,2.7 5.3,2.7 8,2.7 8,0 5.3,0 2.7,0 0,0 
+			0,2.7 0,5.3 0,8 0,10.7 0,13.3 0,16 0,18.7 0,21.3 0,24 0,26.7 0,29.3 0,32 2.7,32 5.3,32 8,32 10.7,32 13.3,32 16,32 18.7,32 
+			21.3,32 24,32 26.7,32 29.3,32 32,32 32,29.3 32,26.7 32,24 29.3,24 		"/>
+	</g>
+</g>
+<g id="Calque_20" class="st0">
 	<rect class="st1" width="2.7" height="2.7"/>
 	<rect y="2.7" class="st1" width="2.7" height="2.7"/>
 	<rect y="5.3" class="st1" width="2.7" height="2.7"/>
+	<rect x="5.2" y="8" class="st1" width="2.7" height="2.7"/>
+	<rect x="7.8" y="8" class="st1" width="2.7" height="2.7"/>
+	<rect x="10.5" y="8" class="st1" width="2.7" height="2.7"/>
+	<rect x="13.2" y="8" class="st1" width="2.7" height="2.7"/>
+	<rect x="5.2" y="18.7" class="st1" width="2.7" height="2.7"/>
+	<rect x="7.8" y="18.7" class="st1" width="2.7" height="2.7"/>
+	<rect x="10.5" y="18.7" class="st1" width="2.7" height="2.7"/>
+	<rect x="13.2" y="18.7" class="st1" width="2.7" height="2.7"/>
+	<rect x="15.8" y="18.7" class="st1" width="2.7" height="2.7"/>
+	<rect x="5.2" y="13.3" class="st1" width="2.7" height="2.7"/>
+	<rect x="7.8" y="13.3" class="st1" width="2.7" height="2.7"/>
+	<rect x="10.5" y="13.3" class="st1" width="2.7" height="2.7"/>
+	<rect x="13.2" y="13.3" class="st1" width="2.7" height="2.7"/>
+	<rect x="15.8" y="13.3" class="st1" width="2.7" height="2.7"/>
+	<rect x="18.5" y="13.3" class="st1" width="2.7" height="2.7"/>
+	<rect x="21.2" y="13.3" class="st1" width="2.7" height="2.7"/>
 	<rect y="8" class="st1" width="2.7" height="2.7"/>
 	<rect y="10.7" class="st1" width="2.7" height="2.7"/>
 	<rect y="13.3" class="st1" width="2.7" height="2.7"/>
@@ -671,6 +687,15 @@
 	<rect y="21.3" class="st1" width="2.7" height="2.7"/>
 	<rect y="24" class="st1" width="2.7" height="2.7"/>
 	<rect y="26.7" class="st1" width="2.7" height="2.7"/>
+	<rect y="29.3" class="st1" width="2.7" height="2.7"/>
+	<rect x="29.3" y="8" class="st1" width="2.7" height="2.7"/>
+	<rect x="29.3" y="10.7" class="st1" width="2.7" height="2.7"/>
+	<rect x="29.3" y="13.3" class="st1" width="2.7" height="2.7"/>
+	<rect x="29.3" y="16" class="st1" width="2.7" height="2.7"/>
+	<rect x="29.3" y="18.7" class="st1" width="2.7" height="2.7"/>
+	<rect x="29.3" y="21.3" class="st1" width="2.7" height="2.7"/>
+	<rect x="29.3" y="24" class="st1" width="2.7" height="2.7"/>
+	<rect x="29.3" y="26.7" class="st1" width="2.7" height="2.7"/>
 	
 		<rect x="26.7" y="29.3" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 58.6667 2.6667)" class="st1" width="2.7" height="2.7"/>
 	<rect x="24" y="29.3" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 56 5.3333)" class="st1" width="2.7" height="2.7"/>
@@ -685,33 +710,19 @@
 	<rect x="5.3" y="29.3" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 37.3333 24)" class="st1" width="2.7" height="2.7"/>
 	
 		<rect x="2.7" y="29.3" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 34.6667 26.6667)" class="st1" width="2.7" height="2.7"/>
+	<rect x="21.3" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 24 -21.3333)" class="st1" width="2.7" height="2.7"/>
 	
-		<rect x="26.7" y="0" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 29.3333 -26.6667)" class="st1" width="2.7" height="2.7"/>
-	<rect x="24" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 26.6667 -24)" class="st1" width="2.7" height="2.7"/>
-	<rect x="21.3" y="0" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 24 -21.3333)" class="st1" width="2.7" height="2.7"/>
+		<rect x="24" y="2.7" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 29.3333 -21.3333)" class="st1" width="2.7" height="2.7"/>
 	
-		<rect x="18.7" y="0" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 21.3333 -18.6667)" class="st1" width="2.7" height="2.7"/>
-	<rect x="16" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 18.6667 -16)" class="st1" width="2.7" height="2.7"/>
+		<rect x="26.7" y="5.3" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 34.6667 -21.3333)" class="st1" width="2.7" height="2.7"/>
+	<rect x="18.7" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 21.3333 -18.6667)" class="st1" width="2.7" height="2.7"/>
+	<rect x="16" y="0" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 18.6667 -16)" class="st1" width="2.7" height="2.7"/>
+	<rect x="13.3" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 16 -13.3333)" class="st1" width="2.7" height="2.7"/>
+	<rect x="10.7" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 13.3333 -10.6667)" class="st1" width="2.7" height="2.7"/>
+	<rect x="8" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 10.6667 -8)" class="st1" width="2.7" height="2.7"/>
 	<rect x="5.3" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 8 -5.3333)" class="st1" width="2.7" height="2.7"/>
 	<rect x="2.7" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 5.3333 -2.6667)" class="st1" width="2.7" height="2.7"/>
-	<rect y="29.3" class="st1" width="2.7" height="2.7"/>
-</g>
-<g id="Calque_20">
-	<g>
-		<polygon points="10.5,10.7 13.2,10.7 15.8,10.7 15.8,8 13.2,8 10.5,8 7.8,8 5.2,8 5.2,10.7 7.8,10.7 		"/>
-		<polygon points="13.2,18.7 10.5,18.7 7.8,18.7 5.2,18.7 5.2,21.3 7.8,21.3 10.5,21.3 13.2,21.3 15.8,21.3 18.5,21.3 18.5,18.7 
-			15.8,18.7 		"/>
-		<polygon points="18.5,13.3 15.8,13.3 13.2,13.3 10.5,13.3 7.8,13.3 5.2,13.3 5.2,16 7.8,16 10.5,16 13.2,16 15.8,16 18.5,16 
-			21.2,16 23.8,16 23.8,13.3 21.2,13.3 		"/>
-		<polygon points="29.3,8 29.3,10.7 29.3,13.3 29.3,16 29.3,18.7 29.3,21.3 29.3,24 29.3,26.7 29.3,29.3 26.7,29.3 24,29.3 
-			21.3,29.3 18.7,29.3 16,29.3 13.3,29.3 10.7,29.3 8,29.3 5.3,29.3 2.7,29.3 2.7,26.7 2.7,24 2.7,21.3 2.7,18.7 2.7,16 2.7,13.3 
-			2.7,10.7 2.7,8 2.7,5.3 2.7,2.7 5.3,2.7 8,2.7 10.7,2.7 13.3,2.7 16,2.7 18.7,2.7 21.3,2.7 24,2.7 24,0 21.3,0 18.7,0 16,0 
-			13.3,0 10.7,0 8,0 5.3,0 2.7,0 0,0 0,2.7 0,5.3 0,8 0,10.7 0,13.3 0,16 0,18.7 0,21.3 0,24 0,26.7 0,29.3 0,32 2.7,32 5.3,32 
-			8,32 10.7,32 13.3,32 16,32 18.7,32 21.3,32 24,32 26.7,32 29.3,32 32,32 32,29.3 32,26.7 32,24 32,21.3 32,18.7 32,16 32,13.3 
-			32,10.7 32,8 		"/>
-		<rect x="24" y="2.7" width="2.7" height="2.7"/>
-		<rect x="26.7" y="5.3" width="2.7" height="2.7"/>
-	</g>
+	<rect x="29.3" y="29.3" class="st1" width="2.7" height="2.7"/>
 </g>
 <g id="Calque_21" class="st0">
 	<rect y="16" class="st1" width="2.7" height="2.7"/>

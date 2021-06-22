@@ -7,7 +7,7 @@
                 <a href="javascript:history.go(-1)"><img src="@/assets/var_icons/back.svg" alt=""></a>
               </div>
               <div v-if="$route.name == 'Game' || $route.name == 'Home' ">
-                <router-link to="/About"><img src="@/assets/var_icons/logo.png" alt=""></router-link>
+                <router-link to="/About"><img src="@/assets/var_icons/logo.svg" alt=""></router-link>
               </div>
               <router-link to="/"><img src="@/assets/var_icons/nav_home.svg" alt=""></router-link>
               <router-link to="/Memo"><img src="@/assets/var_icons/nav_nokie.svg" alt=""></router-link>
