@@ -3,6 +3,9 @@
       <nav>
         <div class="nav-container">
           <h2>{{ currentStep }}</h2>
+          <div v-if="$route.name == 'Memo'">
+            <router-link to="/Game"><img src="@/assets/var_icons/back.svg" alt=""></router-link> 
+          </div>
           <div class="links">
             <router-link to="/"><img src="@/assets/var_icons/nav_home.svg" alt=""></router-link> |
             <router-link to="/Memo"><img src="@/assets/var_icons/nav_nokie.svg" alt=""></router-link>
