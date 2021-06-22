@@ -1,5 +1,8 @@
 <template>
   <div class="game">
+    <div v-if="showMemoBox">
+      <Memobox v-on:closebox="hideBox()" v-bind:memoItem="memoItem"/>
+    </div>
     <Nav />
     <div class="content-memo">
       <div v-for="(memo, index) in memos" v-bind:key="index">
@@ -7,7 +10,7 @@
           {{ memo.step_name}}
         </div>
         <div class="content-memo-text">
-          <p class="" v-bind:class="{ link: memo.item_text }">{{ memo.item_title }}</p>
+          <p class="" v-bind:class="{ link: memo.item_text }" @click="showBox(memo)">{{ memo.item_title }}</p>
         </div>
       </div>
     </div>
@@ -16,17 +19,30 @@
 
 <script>
 import Nav from '@/components/Nav.vue';
+import Memobox from '@/components/Memobox.vue';
 
 export default {
   name: 'Memo',
   components: {
     Nav,
+    Memobox,
   },
   data: function () {
     return {
       memos: require(`../data/graphisme_memo_content.csv`),
+      showMemoBox: false,
+      memoItem : null,
     }
   },
+  methods: {
+    showBox(memo) {
+      this.memoItem = memo;
+      this.showMemoBox = true;
+    },
+    hideBox(){
+      this.showMemoBox = false;
+    }
+  }
 }
 </script>
 
