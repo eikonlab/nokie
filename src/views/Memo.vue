@@ -8,9 +8,7 @@
         </div>
         <br>
         <div class="content-memo-text">
-          <img src="@/assets/var_icons/line.svg" alt="">
           <p><a href="">{{ memo.memo_text }}</a></p>
-          <img v-if="index != Object.keys(memos).length - 1" src="@/assets/var_icons/line.svg" alt="">
         </div>
       </div>
     </div>
@@ -72,13 +70,15 @@ export default {
 }
 
 a {
-  color: #ffff;
+  font-size: 22px;
+  color: #B6FFAB;
+  letter-spacing: 0.5px;
+  text-align: center;
   text-decoration: none;
-  box-shadow: inset 0 -0.25em #198daa;
-  transition: all 0.4s;
 }
 
-a:hover {
-  box-shadow: inset 0 -0.75em #198daa;
+a::after {
+  content: icon;
 }
+
 </style>

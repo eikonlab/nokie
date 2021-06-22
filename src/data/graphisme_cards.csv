@@ -20,9 +20,9 @@ id,image,step,text,option_01_text,option_02_text,option_01_nextId,option_02_next
 18,mail.gif,Définir,Gérard est content du brief et l'a validé.,Yessay,Nice,19,19,Mail de Gérard,3,#FDF3CD,desktop_mail.png
 19,nokie.gif,Définir,« Ok maintenant on s'occupe des recherches. »,Je suis tout ouïe,Je t'écoute,20,20,Nokie,FALSE,#C8E8FD,desktop_bureau.png
 20,nokie_intello.gif,Définir,"« Je te parle d'analyse de marché, du public cible, de la stratégie de communication, de l'axe de communication, de la planification puis du budget. » ",Ok let's go,J'abandonne,22,21,Nokie,FALSE,#C8E8FD,desktop_bureau.png
-21,nokie_vener.gif,Définir,« T'es sérieux là ? »,C bon jcontinue,Oui j'ai juré j'abandonne,20,23,Nokie n'en peut plus,FALSE,#BDBDBD,desktop_bureau.png
+21,nokie_vener.gif,Définir,« T'es sérieux là ? »,C bon jcontinue,Oui j'ai juré j'abandonne,20,23,Nokie n'en peut plus,FALSE,#bfbfbf,desktop_bureau.png
 22,nokie_chargement.gif,Définir,*bip boup bidip bip* « Ok j'ai terminé l'étape de définition. » ,T'es trop fort,Ça fait plaisir,25,25,Nokie,FALSE,#C8E8FD,desktop_bureau.png
-23,nokinator.gif,Définir,"Nokie en a marre de vos conneries, il veut en finir avec vous comme avec le précédent.",Accepter son sort,Essayer de se battre,1,24,Nokinator,FALSE,#BDBDBD,desktop_bureau.png
+23,nokinator.gif,Définir,"Nokie en a marre de vos conneries, il veut en finir avec vous comme avec le précédent.",Accepter son sort,Essayer de se battre,1,24,Nokinator,FALSE,#bfbfbf,desktop_bureau.png
 24,nokinator_sang.gif,Définir,Tes 8h journalières passés assis ne t'ont pas aidés dans le combat.,Bon d'accord je suis mort,Ok j'ai compris,1,1,Nokinator,FALSE,#BDBDBD,desktop_bureau.png
 25,nokie_intello.gif,Développer,"« Ok, maintenant il nous faudrait des idées et concepts... » ",Lançons la recherche !,Fumer de l'opium pour trouver l'inspi,27,26,Nokie,4,#C8E8FD,desktop_bureau.png
 26,mort_vomi.gif,Développer,"Tu finis super confus, et constipé. Tu t'endors et t'étouffes dans ton vomis pendant ton sommeil.",Relou,Trop relou,25,22,BB: S12 E12,FALSE,#BDBDBD,desktop_bureau.png
