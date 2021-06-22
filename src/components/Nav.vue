@@ -76,12 +76,13 @@ nav img {
 }
 
 nav {
-  height: 40px;
+  height: 60px;
   width: 100%;
   padding: 10px;
   background-color: #FFFFFF;
   position: fixed;
   top: 0px;
+  box-sizing: border-box;
 }
 
 .nav-container {
@@ -108,6 +109,7 @@ h2, nav {
 nav a, nav a:visited {
   color: #4D4D4D;
   line-height: 0;
+  display: flex;
 }
 
 nav a.router-link-exact-active {
