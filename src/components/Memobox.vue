@@ -53,7 +53,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-color:pink;
+  background-color:red;
   height: 545px;
   width: 320px;
 }

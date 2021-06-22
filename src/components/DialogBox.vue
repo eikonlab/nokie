@@ -7,7 +7,7 @@
       <img  class="trophe" src="@/assets/var_icons/trophe.gif" alt="">
       <div class="button-container">
         <button>
-          <router-link :to="{ name: 'Memo', params: {step: dialogId }}">{{ memos[dialogId].btn_step }}</router-link>
+          <router-link :to="{ name: 'Memo', params: {step: dialogId }}">Voir l'étape «{{ memos[dialogId].btn_step }}»</router-link>
         </button>
         <button v-on:click="()=>{registerClick();}">{{ memos[dialogId].btn_dialog }}</button>
       </div>
