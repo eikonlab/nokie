@@ -4,11 +4,10 @@
     <div class="content-memo">
       <div v-for="(memo, index) in memos" v-bind:key="index">
         <div class="step-title">
-          {{ memo.btn_step }}
+          {{ memo.step_name}}
         </div>
-        <br>
         <div class="content-memo-text">
-          <p><a href="">{{ memo.memo_text }}</a></p>
+          <p class="" v-bind:class="{ link: memo.item_text }">{{ memo.item_title }}</p>
         </div>
       </div>
     </div>
@@ -25,7 +24,7 @@ export default {
   },
   data: function () {
     return {
-      memos: require(`../data/graphisme_memos.csv`),
+      memos: require(`../data/graphisme_memo_content.csv`),
     }
   },
 }
@@ -60,18 +59,18 @@ export default {
 .step-title {
   font-size: 28px;
   text-align: center;
-  line-height: 30px;
-  margin-bottom: 30px;
 }
 
 p {
   width: 250px;
 }
 
-a {
+.link {
   line-height: 30px;
   word-wrap: break-word;
-  width: 25px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 32px;
   font-size: 22px;
   color: #D5ffcf;
   letter-spacing: 0.5px;
@@ -80,7 +79,7 @@ a {
   position: relative;
 }
 
-a::after {
+.link::after {
   content: '';
   background: url('../assets/var_icons/arrow_memo.svg');
   background-repeat: no-repeat;
