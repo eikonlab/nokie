@@ -1,6 +1,6 @@
 <template>
   <div class="content" :style="{ 'background-image': 'url(' + require('@/assets/images/'+ cards[activeID].bckn_desktop) + ')' }">
-    <CardUnique v-bind:card="cards[activeID]" v-on:displayCard="displayCard" v-on:showDialogBox="showDialogBox"/>
+    <CardUnique v-bind:card="cards[activeID]" v-on:displayCard="displayCard" v-on:showDialogBox="showDialogBox" v-on:playEndSound="playEndSound"/>
     <!-- <button class="storage" v-on:click="clearStorage()"></button> -->
   </div>
 </template>
@@ -37,7 +37,7 @@ export default {
       let localValue = localStorage.getItem('CardID');
         if (localValue) {
           var state = this;
-          state.activeID = localValue;
+          state.activeID = localValue; // 44
           console.log("storage", localValue);
         }
     },
@@ -52,6 +52,9 @@ export default {
     },
     showDialogBox (dialogId) {
       this.$emit('showDialogBox', dialogId);
+    },
+    playEndSound () {
+      this.$emit('playEndSound');
     },
     clearStorage () {
       localStorage.removeItem('CardID');

@@ -54,6 +54,7 @@ export default {
     },
     playEndSound(){
       let audio = this.$refs.winnersound;
+      this.$emit('playEndSound');
       audio.volume = 0.1;
       audio.play(); 
     }

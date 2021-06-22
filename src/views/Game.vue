@@ -1,7 +1,7 @@
 <template>
   <div class="game">
     <Nav :currentStep="currentStep" />
-    <CardDeck v-on:changeStep="changeStep" v-on:showDialogBox="showDialogBox"/>
+    <CardDeck v-on:changeStep="changeStep" v-on:showDialogBox="showDialogBox" v-on:playEndSound="playEndSound"/>
     <div v-if="dialogId && !hasDialogIdAlreadyBeenShown()" class="dialogContainer">
       <DialogBox :memos="memos" v-on:hideDialogBox="hideDialogBox" :dialogId="dialogId"/>
     </div>
@@ -34,6 +34,10 @@ export default {
     },
     showDialogBox(dialogId) {
       this.dialogId = dialogId;
+    },
+    playEndSound() {
+      // console.log('play end sound!')
+      //this.$emit('playEndSound')
     },
     hideDialogBox() {
       this.dialogIdShown.push(this.dialogId);
