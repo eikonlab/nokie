@@ -1,6 +1,7 @@
 <template>
   <div class="overlay-dialog">
-    <audio ref="selectsound2" preload="auto" src="@/assets/sound/select.mp3"></audio>
+    <audio ref="selectsound" preload="auto" src="@/assets/sound/select.mp3" muted></audio>
+    <audio ref="validationsound" preload="auto" src="@/assets/sound/dialogBoxVictoire.mp3" muted></audio>
     <div class="dialog">
       <p>{{ memos[dialogId].text_dialog }}</p>
       <img  class="trophe" src="@/assets/var_icons/trophe.gif" alt="">
@@ -25,7 +26,7 @@
     props: ['memos','dialogId'],
     mounted (){
       this.start();
-      console.log('start');
+      this.playValidationSound();
     },
     methods: {
       start() {
@@ -47,10 +48,15 @@
       },
       registerClick (){
         this.playSelect();
-        window.setTimeout(() => {this.$emit('hideDialogBox')},500);
+        window.setTimeout(() => {this.$emit('hideDialogBox')},250);
       },
       playSelect(){
-        let audio = this.$refs.selectsound2;
+        let audio = this.$refs.selectsound;
+        audio.volume = 0.1;
+        audio.play(); 
+      },
+      playValidationSound(){
+        let audio = this.$refs.validationsound;
         audio.volume = 0.1;
         audio.play(); 
       }
