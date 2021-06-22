@@ -1,6 +1,8 @@
 <template>
   <div class="card-container" :style="{'background-color':card.bckn_color}">
     <audio ref="selectsound" preload="auto" src="@/assets/sound/select.mp3" muted></audio>
+    <audio ref="deadsound" preload="auto" src="@/assets/sound/loser.mp3" muted></audio>
+    <audio ref="winnersound" preload="auto" src="@/assets/sound/winner.mp3" muted></audio>
     <div class="card">
       <p>
         {{ card.text }}<br>
@@ -20,9 +22,19 @@ export default {
   name: 'CardUnique',
   props: {card:Object},
   updated: function () {
+    
     const dialogId = this.card.dialog_id;
+    const color = this.card.bckn_color
+    if(color == '#BDBDBD') {
+      this.playDeadSound();
+    }
     if (dialogId) {
       this.$emit('showDialogBox', dialogId)
+    }
+    // if it's the end, play the end music
+    const cardId = this.card.id;
+    if(cardId == 45){
+      this.playEndSound();
     }
   },
   methods: {
@@ -32,6 +44,16 @@ export default {
     },
     playSelect(){
       let audio = this.$refs.selectsound;
+      audio.volume = 0.1;
+      audio.play(); 
+    },
+    playDeadSound(){
+      let audio = this.$refs.deadsound;
+      audio.volume = 0.1;
+      audio.play(); 
+    },
+    playEndSound(){
+      let audio = this.$refs.winnersound;
       audio.volume = 0.1;
       audio.play(); 
     }
