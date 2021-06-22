@@ -49,6 +49,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .content-memo-text img {
@@ -57,28 +58,40 @@ export default {
 }
 
 .step-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  color: #333333;
-  width: 150px;
-  height: 60px;
-  margin-top: 20px;
-  font-size: 20px;
-  background: #FFFFFF;
+  font-size: 28px;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+p {
+  width: 250px;
 }
 
 a {
+  line-height: 30px;
+  word-wrap: break-word;
+  width: 25px;
   font-size: 22px;
-  color: #B6FFAB;
+  color: #D5ffcf;
   letter-spacing: 0.5px;
   text-align: center;
   text-decoration: none;
+  position: relative;
 }
 
 a::after {
-  content: icon;
+  content: '';
+  background: url('../assets/var_icons/arrow_memo.svg');
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  z-index: 10;
+  display: inline-block;
+  background-size: contain;
+  position: relative;
+  top: 3px;
+  right: -20px;
 }
 
 </style>

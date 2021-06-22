@@ -70,9 +70,9 @@ nav img {
 
 .links {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 315px;
 }
 
 nav {
@@ -111,6 +111,6 @@ nav a, nav a:visited {
 }
 
 nav a.router-link-exact-active {
-  color: #1DD0FB;
+  color: #D5ffcf;
 }
 </style>
