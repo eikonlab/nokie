@@ -2,27 +2,20 @@
   <div>
       <nav>
         <div class="nav-container">
-          <!-- <router-link to="/About"><img src="@/assets/var_icons/logo.png" alt=""></router-link> |
-          <h2>{{ currentStep }}</h2>
-          <div v-if="$route.name == 'Memo' || $route.name == 'About' ">
-            <a href="javascript:history.go(-1)"><img src="@/assets/var_icons/back.svg" alt=""></a>
-          </div> -->
-          <div>
-            <div v-if="$route.name == 'Memo' || $route.name == 'About' ">
-              <a href="javascript:history.go(-1)"><img src="@/assets/var_icons/back.svg" alt=""></a>
-            </div>
-            <div v-if="$route.name == 'Game' || $route.name == 'Home' ">
-              <router-link to="/About"><img src="@/assets/var_icons/logo.png" alt=""></router-link>
-            </div>
-          </div>
-          <div class="links">
-            <router-link to="/"><img src="@/assets/var_icons/nav_home.svg" alt=""></router-link> |
-            <router-link to="/Memo"><img src="@/assets/var_icons/nav_nokie.svg" alt=""></router-link>
-          </div>
-          <div class="music-player">
-              <audio ref="audio" preload="auto" src="@/assets/sound/song.mp3" muted loop></audio>
+            <div  class="links">
+              <div v-if="$route.name == 'Memo' || $route.name == 'About' ">
+                <a href="javascript:history.go(-1)"><img src="@/assets/var_icons/back.svg" alt=""></a>
+              </div>
+              <div v-if="$route.name == 'Game' || $route.name == 'Home' ">
+                <router-link to="/About"><img src="@/assets/var_icons/logo.png" alt=""></router-link>
+              </div>
+              <router-link to="/"><img src="@/assets/var_icons/nav_home.svg" alt=""></router-link>
+              <router-link to="/Memo"><img src="@/assets/var_icons/nav_nokie.svg" alt=""></router-link>
+              <div class="music-player">
+                <audio ref="audio" preload="auto" src="@/assets/sound/song.mp3" muted loop></audio>
               <div @click="toggleSound(file)" class="toggle-sound paused"><img :src="require(`@/assets/var_icons/${soundIcon[playState]}`)"></div>
             </div>
+          </div>
         </div>
       </nav>
     <router-view/>
@@ -79,13 +72,10 @@ nav img {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 30%;
+  width: 100%;
 }
 
 nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   height: 40px;
   width: 100%;
   padding: 10px;
@@ -97,7 +87,9 @@ nav {
 .nav-container {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .toggle-sound {
@@ -115,6 +107,7 @@ h2, nav {
 
 nav a, nav a:visited {
   color: #4D4D4D;
+  line-height: 0;
 }
 
 nav a.router-link-exact-active {

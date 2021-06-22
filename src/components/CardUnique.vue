@@ -86,7 +86,7 @@ p {
   font-weight: 200;
   text-align: center;
   color: #4D4D4D;
-  margin: 45px 0px 20px 0px;
+  margin: 51px 0px 20px 0px;
 }
 
 figcaption {
@@ -100,13 +100,15 @@ figcaption {
 
 img {
   border: none;
-  width: 315px;
-  height: 315px;
+  width: 100%;
+  height: 100%;
   image-rendering: pixelated;
+  object-fit: contain;
 }
 
 .button-container {
   margin-top: 30px;
+  margin-bottom: 30px;
   width: 315px;
   display: flex;
   justify-content: space-between;

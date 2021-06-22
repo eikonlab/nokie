@@ -1,7 +1,7 @@
 <template>
   <div class="content" :style="{ 'background-image': 'url(' + require('@/assets/images/'+ cards[activeID].bckn_desktop) + ')' }">
     <CardUnique v-bind:card="cards[activeID]" v-on:displayCard="displayCard" v-on:showDialogBox="showDialogBox"/>
-    <button class="storage" v-on:click="clearStorage()"></button>
+    <!-- <button class="storage" v-on:click="clearStorage()"></button> -->
   </div>
 </template>
 
@@ -65,6 +65,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .content {
+  /* height: 120%; */
   height: 100%;
   width: 100%;
   display: flex;
