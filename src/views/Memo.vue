@@ -3,7 +3,7 @@
     <div v-if="showMemoBox">
       <Memobox v-on:closebox="hideBox()" v-bind:memoItem="memoItem"/>
     </div>
-    <Nav />
+    <Nav v-on:toggleSound="$emit('toggleSound')" v-bind:isMuted="isMuted"/>
     <div class="content-memo">
       <div v-for="(memo, index) in memos" v-bind:key="index">
         <div class="step-title">

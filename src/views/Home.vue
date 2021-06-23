@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Nav />
+    <Nav v-on:toggleSound="$emit('toggleSound')" v-bind:isMuted="isMuted"/>
     <div class="home-content">
       <img class="logo" src="@/assets/var_icons/carre.svg" alt="">
       <button>

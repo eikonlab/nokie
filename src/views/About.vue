@@ -1,6 +1,6 @@
 <template>
   <div class="game">
-    <Nav />
+    <Nav v-on:toggleSound="$emit('toggleSound')" v-bind:isMuted="isMuted"/>
     <div class="content-about">
       <img class="logoAbout" src="@/assets/var_icons/carre.svg" alt="">
       <p>C'est carré est un jeu destiné aux étudiants d'eikon afin d'aborder la méthodologie de façon ludique.</p>
