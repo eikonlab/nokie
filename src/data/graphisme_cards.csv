@@ -31,7 +31,7 @@ id,image,step,text,option_01_text,option_02_text,option_01_nextId,option_02_next
 29,creation.gif,Développer,"Tu prépares l'argumentaire, les mockups, les maquettes et tu répètes ta présentation.",Présenter au client,Présenter à ta maman,30,28,magie en opération,FALSE,#FDF3CD,desktop_bureau.png
 30,gerard_intello.gif,Délivrer,« C'est super ! J'adore ! Magnifique ! Je trouve juste que l'interlignage entre le logo et la baseline est un peu petit faudrait juste ajuster ça. » ,Sans problème !,Je m'en occupe !,31,31,Gérard ex-graphiste,5,#C8E8FD,desktop_boulangerie.png
 31,bureau.gif,Délivrer,"Une fois les retouches faites, tu crées les déclinaisons pour les différents médias.",Faire des recherches sur le client,Créer logo et charte graphique,32,33,Bureau,FALSE,#FDF3CD,desktop_bureau.png
-32,nokie_bug.gif,Délivrer,*brrr bzz bkkrr brrr bzz bkkrr*,Je...,Qu'est-ce que...,34,34,Nokie deglingos,FALSE,#BDBDBD,desktop_bureau.png
+32,nokie_bug.gif,Délivrer,*brrr bzz bkkrr brrr bzz bkkrr*,Je...,Qu'est-ce que...,34,34,Nokie deglingos,FALSE,#bfbfbf,desktop_bureau.png
 33,nokie.gif,Délivrer,« Parfait ! On doit juste livrer les réalisations et faire valider avant la production. N'oublie pas le BAT (bon à tirer) pour Gégé ! »,Faisons ça,Let's go,35,35,Nokie,FALSE,#C8E8FD,desktop_bureau.png
 34,nokie_destroy.gif,Délivrer,T'as déjà fait les recherches... Nokie est perturbé par les ondes de ton QI négatif et s'autodétruit.,Je retiens la leçon,Message reçu,30,30,RIP rest in peace Nokie,FALSE,#BDBDBD,desktop_bureau.png
 35,mail.gif,Délivrer,« C'est super ! Ça me convient parfaitement ! Je vous ai signé votre BAT truc. »,Exporter dans les normes,Lancer l'impression,36,37,Gégé76@boulangerie.com,FALSE,#FDF3CD,desktop_mail.png

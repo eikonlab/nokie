@@ -115,7 +115,7 @@ p {
   font-weight: 200;
   text-align: center;
   color: #4D4D4D;
-  margin: 51px 0px 20px 0px;
+  margin: 50px 0px 20px 0px;
 }
 
 figcaption {
@@ -178,6 +178,43 @@ button:hover {
 
 img {
   animation: myAnimCard 4s steps(12, end) infinite;
+}
+
+@media screen and (max-height: 667px) {
+  img {
+    width: 70%;
+  }
+  .button-container {
+    width: 250px;
+  }
+  button {
+    width: 105px;
+    padding: 5px;
+    min-height: 60px;
+    font-size: 18px;
+  }
+  p {
+    width: 280px;
+    min-height: 115px;
+    font-size: 18px;
+    margin: 60px 0px 10px 0px;
+  }
+}
+
+@keyframes end {
+  0% {
+    background: #FFDB70;
+  }
+  50% {
+    background: #1CD0FF;
+  }
+  100% {
+    background: #FFDB70;
+  }
+}
+
+.end {
+  animation: end 2s ease-in-out infinite;
 }
 
 </style>

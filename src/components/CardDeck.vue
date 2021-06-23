@@ -36,6 +36,7 @@ export default {
         if (localValue) {
           var state = this;
           state.activeID = localValue;  // 44
+          // state.activeID = localValue;
         }
     },
     displayCard (id){
