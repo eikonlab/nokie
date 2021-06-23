@@ -174,4 +174,24 @@ img {
   animation: myAnimCard 4s steps(12, end) infinite;
 }
 
+@media screen and (max-height: 667px) {
+  img {
+    width: 70%;
+  }
+  .button-container {
+    width: 250px;
+  }
+  button {
+    width: 105px;
+    padding: 5px;
+    min-height: 60px;
+    font-size: 18px;
+  }
+  p {
+    width: 280px;
+    min-height: 115px;
+    font-size: 18px;
+  }
+}
+
 </style>

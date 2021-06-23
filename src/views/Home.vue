@@ -29,7 +29,6 @@
       }
     },
     mounted(){
-      console.log('mount home!');
       this.getStorage();
     },
     methods: {
@@ -38,7 +37,6 @@
         if (localValue) {
           var state = this;
           state.activeCardFromStorage = localValue;
-          console.log("storage", localValue);
         }
     },
     }
