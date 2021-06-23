@@ -38,7 +38,7 @@ export default {
   methods: {
     showBox(memo) {
       this.memoItem = memo;
-      this.showMemoBox = true;
+      if(memo.item_text) this.showMemoBox = true;
     },
     hideBox(){
       this.showMemoBox = false;

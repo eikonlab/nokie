@@ -6,6 +6,8 @@ Les encadrants du projet sont [Martial Mingam](mailto:mingamm@eikon.ch), [Julien
 
 Le projet a été déveloopé avec le framework javascript [vue.js](https://vuejs.org/).
 
+![Alt Text](./public/gameplay.gif)
+
 ## Project setup (setup du projet)
 
 Ouvrir le terminal, se déplacer dans le dossier 'nokie', puis taper:
