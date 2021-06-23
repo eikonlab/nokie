@@ -3,7 +3,7 @@
     <Nav />
     <div class="content-about">
       <img class="logoAbout" src="@/assets/var_icons/carre.svg" alt="">
-      <p>C'est carré, est un jeu destiné aux étudiants d'eikon afin d'aborder la méthodologie de façon ludique.</p>
+      <p>C'est carré est un jeu destiné aux étudiants d'eikon afin d'aborder la méthodologie de façon ludique.</p>
       <h2>Créé par</h2>
       <ul>
         <div class="person">

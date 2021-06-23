@@ -1,65 +1,25 @@
 <template>
   <div class="overlay-dialog">
-    <audio ref="selectsound" preload="auto" src="@/assets/sound/select.mp3" muted></audio>
-    <audio ref="validationsound" preload="auto" src="@/assets/sound/dialogBoxVictoire.mp3" muted></audio>
     <div class="dialog">
-      <p>{{ memos[dialogId].text_dialog }}</p>
-      <img  class="trophe" src="@/assets/var_icons/trophe.gif" alt="">
+      <p>{{memoItem.item_title}}</p>
+      <p>{{memoItem.item_text}}</p>
       <div class="button-container">
-        <button>
-          <router-link :to="{ name: 'Memo', params: {step: dialogId }}">Voir l'étape «{{ memos[dialogId].btn_step }}»</router-link>
+        <button @click="$emit('closebox')">
+          Ok
         </button>
-        <button v-on:click="()=>{registerClick();}">{{ memos[dialogId].btn_dialog }}</button>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-  import Vue from 'vue'
-  import VueConfetti from 'vue-confetti'
- 
-  Vue.use(VueConfetti)
-
   export default {
-    name: 'DialogBox',
-    props: ['memos','dialogId'],
+    name: 'Memobox',
+    props: ['memoItem'],
+    // props: ['memos','dialogId'],
     mounted (){
-      this.start();
-      this.playValidationSound();
     },
     methods: {
-      start() {
-        this.$confetti.start({
-          particles: [
-            {
-              type: 'rect',
-              size: 8,
-            },
-          ],
-          particlesPerFrame: 2,
-          defaultDropRate: 15,
-          windSpeedMax: 2,
-        });
-        window.setTimeout(() => {this.stop();window.setTimeout(()=>{const conf = document.getElementById("confetti-canvas");conf.remove();},4000)},1500)
-      },
-      stop() {
-        this.$confetti.stop();
-      },
-      registerClick (){
-        this.playSelect();
-        window.setTimeout(() => {this.$emit('hideDialogBox')},250);
-      },
-      playSelect(){
-        let audio = this.$refs.selectsound;
-        audio.volume = 0.1;
-        audio.play(); 
-      },
-      playValidationSound(){
-        let audio = this.$refs.validationsound;
-        audio.volume = 0.1;
-        audio.play(); 
-      }
     }
   }
 </script>
@@ -93,7 +53,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-color:#D5ffcf;
+  background-color:red;
   height: 545px;
   width: 320px;
 }
