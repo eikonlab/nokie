@@ -23,12 +23,10 @@ export default {
   },
   mounted (){
     const activeCardFromparam = this.$route.params.activeCard;
-    console.log('activeCardFromparam',activeCardFromparam)
     if(activeCardFromparam != undefined){
       var state = this;
       state.activeID = activeCardFromparam;
     }else{
-      console.log('no card in params found, get the storage...', activeCardFromparam)
       this.getStorage();
     }
   },
@@ -37,8 +35,7 @@ export default {
       let localValue = localStorage.getItem('CardID');
         if (localValue) {
           var state = this;
-          state.activeID = localValue; // 44
-          console.log("storage", localValue);
+          state.activeID = localValue;
         }
     },
     displayCard (id){

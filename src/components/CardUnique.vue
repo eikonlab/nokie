@@ -194,4 +194,20 @@ img {
   }
 }
 
+@keyframes end {
+  0% {
+    background: #FFDB70;
+  }
+  50% {
+    background: #1CD0FF;
+  }
+  100% {
+    background: #FFDB70;
+  }
+}
+
+.end {
+  animation: end 2s ease-in-out infinite;
+}
+
 </style>
