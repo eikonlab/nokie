@@ -31,8 +31,6 @@
       <ul>
         <div class="person">
           <li>Daft Punk- Veridis Quo (8bit) by HunTerSpoTMusic</li>
-          <br>
-          <li>Blonde Redhead - For the Damaged Coda</li>
         </div>
       </ul>
       <h2>Remerciements</h2>
