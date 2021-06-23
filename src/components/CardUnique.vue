@@ -20,7 +20,7 @@
 <script>
 export default {
   name: 'CardUnique',
-  props: {card:Object},
+  props: {card:Object, isMuted:Boolean},
   updated: function () {
     
     const dialogId = this.card.dialog_id;

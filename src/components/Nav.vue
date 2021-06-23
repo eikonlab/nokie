@@ -36,8 +36,8 @@ export default {
     currentSrc: 0,
     methods: {
       getPlayState(){
-        if(this.isMuted) return 'on'
-        else return 'off';
+        if(this.isMuted) return 'off'
+        else return 'on';
       }
   },
 }

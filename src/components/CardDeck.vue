@@ -1,6 +1,6 @@
 <template>
   <div class="content" :style="{ 'background-image': 'url(' + require('@/assets/images/'+ cards[activeID].bckn_desktop) + ')' }">
-    <CardUnique v-bind:card="cards[activeID]" v-on:displayCard="displayCard" v-on:showDialogBox="showDialogBox" v-on:playEndSound="playEndSound"/>
+    <CardUnique v-bind:card="cards[activeID]" v-on:displayCard="displayCard" v-on:showDialogBox="showDialogBox" v-on:playEndSound="playEndSound" v-bind:isMuted="isMuted"/>
     <!-- <button class="storage" v-on:click="clearStorage()"></button> -->
   </div>
 </template>
@@ -14,6 +14,7 @@ export default {
   components: {
     CardUnique
   },
+  props: ['isMuted'],
   data: function () {
     return {
       cards: require(`../data/graphisme_cards.csv`),

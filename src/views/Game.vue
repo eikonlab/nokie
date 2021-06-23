@@ -1,7 +1,7 @@
 <template>
   <div class="game">
     <Nav :currentStep="currentStep" v-on:toggleSound="$emit('toggleSound')" v-bind:isMuted="isMuted"/>
-    <CardDeck v-on:changeStep="changeStep" v-on:showDialogBox="showDialogBox" v-on:playEndSound="playEndSound"/>
+    <CardDeck v-on:changeStep="changeStep" v-on:showDialogBox="showDialogBox" v-on:playEndSound="playEndSound" v-bind:isMuted="isMuted"/>
     <div v-if="dialogId && !hasDialogIdAlreadyBeenShown()" class="dialogContainer">
       <DialogBox :memos="memos" v-on:hideDialogBox="hideDialogBox" :dialogId="dialogId"/>
     </div>

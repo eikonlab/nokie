@@ -3,8 +3,8 @@
     <Nav v-on:toggleSound="$emit('toggleSound')" v-bind:isMuted="isMuted"/>
     <div class="content-about">
       <img class="logoAbout" src="@/assets/var_icons/carre.svg" alt="">
-      <p>C'est carré est un jeu destiné aux étudiants d'eikon afin d'aborder la méthodologie de façon ludique.</p>
-      <h2>Créé par</h2>
+      <p>Sur une idée du groupe de travail méthodologie, "c'est carré" est un jeu destiné aux étudiants d'eikon afin d'aborder la méthodologie de façon ludique.</p>
+      <h2>Créé par eikonlab</h2>
       <ul>
         <div class="person">
           <li>illustration + design interface</li>
@@ -33,6 +33,12 @@
           <li>Daft Punk- Veridis Quo (8bit) by HunTerSpoTMusic</li>
           <br>
           <li>Blonde Redhead - For the Damaged Coda</li>
+        </div>
+      </ul>
+      <h2>Remerciements</h2>
+      <ul>
+        <div class="person">
+          <li>Nicolas Buntschu, Ann Griffin, Joackim Devaud, Rachel Pilet pour leurs regards carrément éclairés</li>
         </div>
       </ul>
     </div>
