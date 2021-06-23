@@ -1,34 +1,70 @@
 <template>
   <div class="app">
     <audio ref="soundtrack" preload="auto" src="@/assets/sound/song.mp3" muted loop></audio>
-    <audio ref="endSong" preload="auto" src="@/assets/sound/song.mp3" muted loop></audio>
-    <router-view v-bind:isMuted="isMuted" v-on:playEndSound="playEndSound()" v-on:toggleSound="toggleSound()"/>
+    <audio ref="endSong" preload="auto" src="@/assets/sound/endVictory.mp3" muted loop></audio>
+    <router-view v-bind:isMuted="isMuted" v-on:playEndSound="playEndSound()" v-on:toggleSound="toggleSound()" v-on:startSound="startSound()"/>
   </div>
 </template>
 
 <script>
 export default{
+  
   name: 'App',
   components: {
   },
   data: function () {
     return {
       isMuted : false,
+      isSoundEnabled: false,
     }
   },
-  mounted (){
-    this.playSoundTrack();
+  created(){ 
+    // redirect to home on first load
+    if(this.$route.name !== '/'){
+      this.$router.push({ path: 'Home' });
+    }
+    window.addEventListener('click', ()=>{
+      if(!this.isSoundEnabled) {
+        this.startSound();
+        this.isSoundEnabled = true;
+        }
+    })
   },
   methods: {
     playEndSound(){
-    // console.log('play end sound from app!')
+      this.stopSoundTrack();
+      let audio = this.$refs.endSong;
+      audio.volume = 0.1;
+      audio.play(); 
+    },
+    stopEndSound(){
+      let audio = this.$refs.endSong;
+      audio.pause();
+    },
+    startSound(){
+      this.playSoundTrack();
     },
     playSoundTrack(){
-      // let audio = this.$refs.soundtrack;
-      // audio.play(); 
+      if(!this.isMuted){
+        this.stopEndSound();
+        let audio = this.$refs.soundtrack;
+        audio.volume = 0.1;
+        audio.play(); 
+      }
+      
+    },
+    stopSoundTrack(){
+      let audio = this.$refs.soundtrack;
+      audio.pause();
     },
     toggleSound(){
       this.isMuted = !this.isMuted;
+      if(!this.isMuted) {
+        this.playSoundTrack();
+      }
+      else {
+        this.stopSoundTrack();
+        }
     }
   }
 }
