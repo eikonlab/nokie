@@ -97,6 +97,10 @@ p {
   position: relative;
 }
 
+.link:hover {
+  cursor: url('/hand.png'), auto;
+}
+
 .link::after {
   content: '';
   background: url('../assets/var_icons/arrow_memo.svg');

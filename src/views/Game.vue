@@ -64,4 +64,8 @@ export default {
   flex-direction: column;
   justify-content: center;
 }
+
+body {
+  background-color: #FFF8F3;
+}
 </style>
