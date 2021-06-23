@@ -6,11 +6,18 @@ import About from '../views/About.vue'
 
 Vue.use(VueRouter)
 
+// let isFirstLoad = true;
+
 const routes = [
   {
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+  path: '/home',
+  name: 'Home',
+  component: Home
   },
   {
     path: '/game',

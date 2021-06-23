@@ -40,7 +40,13 @@ export default {
   methods: {
     registerClick (nextId){
       this.playSelect();
-      this.$emit('displayCard', nextId);
+      // if the next id is a number
+      if(typeof nextId == 'number'){
+        this.$emit('displayCard', nextId);
+      }else{
+        this.$router.push({ path: nextId });
+      }
+      
     },
     playSelect(){
       let audio = this.$refs.selectsound;

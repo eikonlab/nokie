@@ -44,4 +44,4 @@ id,image,step,text,option_01_text,option_02_text,option_01_nextId,option_02_next
 42,nokie_vener.gif,Débriefer,« Mais bien sur que y'a besoin ! C'est essentiel » ,T'as raison,C'est bon wsh,41,40,Nokie en a marre,FALSE,#BDBDBD,desktop_bureau.png
 43,gerard.gif,Clore,"« Écoutez, moi je suis très content du résultat ! Ça plaît à toute la famille. Merci pour votre travail » ",Je ne fais que mon métier,Ravi que ça vous plaise,44,44,Gérard,8,#C8E8FD,desktop_boulangerie.png
 44,nokie.gif,Clore,"« Il reste plus qu'à ranger tout ça, faire les dernières factures, reprendre contact si besoin avec Gérard et archiver le mandat ! »",Faisons tout ça,On a fini la ?,45,45,Bureau,FALSE,#C8E8FD,desktop_bureau.png
-45,nokie_fete.gif,C la teuf,Vous fêtez ça avec Nokie à Ibiza et c'est déjà la fin de cette belle aventure de graphiste !,Je suis satisfait,Voir le mémo,1,1,Ibiza,9,#C8E8FD,desktop_ibiza.png
+45,nokie_fete.gif,C la teuf,Vous fêtez ça avec Nokie à Ibiza et c'est déjà la fin de cette belle aventure de graphiste !,Je suis satisfait,Voir le mémo,Home,Memo,Ibiza,9,#C8E8FD,desktop_ibiza.png

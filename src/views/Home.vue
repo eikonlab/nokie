@@ -3,10 +3,10 @@
     <Nav v-on:toggleSound="$emit('toggleSound')" v-bind:isMuted="isMuted"/>
     <div class="home-content">
       <img class="logo" src="@/assets/var_icons/carre.svg" alt="">
-      <button>
-        <router-link :to="{ name: 'Game', params: {activeCard: activeCard }}">Nouvelle Partie</router-link>
+      <button @click="$emit('startSound')">
+        <router-link :to="{ name: 'Game', params: {activeCard: activeCard }}" >Nouvelle Partie</router-link>
       </button>
-      <button v-if="activeCardFromStorage">
+      <button v-if="activeCardFromStorage" @click="$emit('startSound')">
         <router-link  :to="{ name: 'Game', params: {activeCard: activeCardFromStorage }}">Reprendre le jeu</router-link>
       </button>
     </div>
