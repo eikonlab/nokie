@@ -59,8 +59,8 @@ body, html {
   cursor: url('/cursor.png'), auto;
 }
 
-*:hover {
-  cursor: url('/cursor.png'), auto;
+a:hover {
+  cursor: url('/hand.png'), auto;
 }
 
 .app {

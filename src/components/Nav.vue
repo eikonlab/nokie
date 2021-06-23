@@ -50,6 +50,10 @@ export default {
   justify-content: center;
 }
 
+.music-player:hover {
+  cursor: url('/hand.png'), auto;
+}
+
 nav img {
   height: 30px;
   image-rendering: pixelated;
@@ -70,6 +74,7 @@ nav {
   position: fixed;
   top: 0px;
   box-sizing: border-box;
+  z-index: 100;
 }
 
 .nav-container {

@@ -151,6 +151,10 @@ button {
   transition: all 0.2s;
 }
 
+button:hover {
+  cursor: url('/hand.png'), auto;
+}
+
 @media (hover: hover) and (pointer: fine) {
   button:hover, button:active {
   background: #FFFFFF;
