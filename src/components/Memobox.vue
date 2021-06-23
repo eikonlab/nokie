@@ -1,12 +1,14 @@
 <template>
   <div class="overlay-dialog">
     <div class="dialog">
-      <p>{{memoItem.item_title}}</p>
-      <p>{{memoItem.item_text}}</p>
-      <div class="button-container">
-        <button @click="$emit('closebox')">
-          Ok
-        </button>
+      <div class="dialog-container">
+        <p>{{memoItem.item_title}}</p>
+        <p>{{memoItem.item_text}}</p>
+        <div class="button-container">
+          <button @click="$emit('closebox')">
+            Ok
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -48,23 +50,34 @@
   animation: overlay 0.5s ease-out;
 }
 
-.dialog {
+.dialog-container {
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-color:red;
+  width: 255px;
+}
+
+.dialog {
+  background-color: #D5ffcf;
   height: 545px;
   width: 320px;
+  display: flex;
+  justify-content: center;
 }
 
 p {
   margin: 0;
   font-size: 22px;
-  width: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   color: #4D4D4D;
   letter-spacing: 0;
   text-align: center;
+  word-break: break-word;
 }
 
 @keyframes vibrate-fast {
