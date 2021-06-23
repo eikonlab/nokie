@@ -109,7 +109,7 @@ p {
   font-weight: 200;
   text-align: center;
   color: #4D4D4D;
-  margin: 51px 0px 20px 0px;
+  margin: 50px 0px 20px 0px;
 }
 
 figcaption {
@@ -191,6 +191,7 @@ img {
     width: 280px;
     min-height: 115px;
     font-size: 18px;
+    margin: 60px 0px 10px 0px;
   }
 }
 
