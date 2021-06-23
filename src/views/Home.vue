@@ -21,6 +21,7 @@
     components: {
       Nav
     },
+    props: ['isMuted'],
     data: function(){
       return {
         activeCard :0,

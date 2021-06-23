@@ -27,6 +27,7 @@ export default {
     Nav,
     Memobox,
   },
+  props: ['isMuted'],
   data: function () {
     return {
       memos: require(`../data/graphisme_memo_content.csv`),

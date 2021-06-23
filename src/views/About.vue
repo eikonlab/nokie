@@ -44,6 +44,7 @@ import Nav from '@/components/Nav.vue';
 
 export default {
   name: 'About',
+  props: ['isMuted'],
   components: {
     Nav,
   },
