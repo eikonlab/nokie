@@ -12,8 +12,7 @@
               <router-link to="/"><img src="@/assets/var_icons/nav_home.svg" alt=""></router-link>
               <router-link to="/Memo"><img src="@/assets/var_icons/nav_nokie.svg" alt=""></router-link>
               <div class="music-player">
-                <audio ref="audio" preload="auto" src="@/assets/sound/song.mp3" muted loop></audio>
-              <div @click="toggleSound(file)" class="toggle-sound paused"><img :src="require(`@/assets/var_icons/${soundIcon[playState]}`)"></div>
+              <div @click="$emit('toggleSound')" class="toggle-sound paused"><img :src="require(`@/assets/var_icons/${soundIcon[getPlayState()]}`)"></div>
             </div>
           </div>
         </div>
@@ -25,10 +24,9 @@
 <script>
 export default {
   name: 'Nav.vue',
-  props: ['currentStep'],
+  props: ['currentStep', 'isMuted'],
     data: () => ({
       file: "@/assets/sound/song.mp3",
-      playState : 'off',
       soundIcon: {
         on: 'nav_song_on.svg',
         off: 'nav_song_off.svg'
@@ -37,22 +35,11 @@ export default {
     src:['@/assets/var_icons/nav_nokie.svg','@/assets/var_icons/nav_nokie.svg'],
     currentSrc: 0,
     methods: {
-    toggleSound() {
-      let audio = this.$refs.audio;
-      audio.volume = 0.1;
-      if (audio.paused && document.querySelector(".toggle-sound").classList.contains("paused")) {
-        console.log("play it")
-        audio.play();
-        this.playState = 'on';
-        document.querySelector(".toggle-sound").classList.remove("paused");
-      } else {
-        console.log("pause it")
-        audio.pause();
-        this.playState = 'off';
-        document.querySelector(".toggle-sound").classList.add("paused");
+      getPlayState(){
+        if(this.isMuted) return 'on'
+        else return 'off';
       }
-    }
-  }
+  },
 }
 </script>
 
