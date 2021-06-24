@@ -24,7 +24,6 @@
         <div class="person">
           <li>Caroline Buttet</li>
           <li>Julien Minguely</li>
-          <li>Martial Mingam</li>
         </div>
       </ul>
       <h2>Musique</h2>
@@ -36,7 +35,7 @@
       <h2>Remerciements</h2>
       <ul>
         <div class="person">
-          <li>Nicolas Buntschu, Ann Griffin, Joackim Devaud, Rachel Pilet pour leurs regards carrément éclairés</li>
+          <li>Nicolas Buntschu, Ann Griffin, Joackim Devaud, Rachel Pilet, Martial Mingam pour leurs regards carrément éclairés</li>
         </div>
       </ul>
     </div>
