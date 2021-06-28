@@ -32,3 +32,4 @@ jobs:
           server: cestcarre.eikon.ch
           username: cestcarre
           password: ${{ secrets.ftp_password }}
+          local-dir: ./dist
